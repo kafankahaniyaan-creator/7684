@@ -34,20 +34,20 @@ http://160.187.56.254:8096/emby/videos/196885/stream.mkv?api_key=9c805afce4a148e
 #EXTHTTP:{"cookie":"null"}
 http://160.187.56.254:8096/emby/videos/177996/stream.mp4?api_key=9c805afce4a148e2a14dd18fa955188d&Static=true&MediaSourceId=mediasource_177996&DeviceId=9743fbe0-ba28-42cb-9605-0eee90b5994b
 
-#EXTINF:-1 tvg-id="476" group-title="Movies" tvg-logo="https://m.media-amazon.com/images/M/MV5BZGEyMDRmYTMtZjNhYy00Mjc0LTg4NDItYWE5NzE1ZDE3NjM2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",Daadi Ki Shaadi
+#EXTINF:-1 tvg-id="476" group-title="Movies" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTJjYTFkM2EtZjBmNy00OTk2LTg0NTAtNzYxYzlmNjhkMzQ5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",Masters of the Universe
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=null:null
 #EXTVLCOPT:http-referrer=null
 #EXTVLCOPT:http-origin=null
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTHTTP:{"cookie":"null"}
-http://160.187.56.254:8096/emby/videos/197353/stream.mkv?api_key=9c805afce4a148e2a14dd18fa955188d&Static=true&MediaSourceId=mediasource_197353&DeviceId=9743fbe0-ba28-42cb-9605-0eee90b5994b
+http://160.187.56.254:8096/emby/videos/194862/stream.mp4?api_key=9c805afce4a148e2a14dd18fa955188d&Static=true&MediaSourceId=mediasource_194862&DeviceId=9743fbe0-ba28-42cb-9605-0eee90b5994b
 
-#EXTINF:-1 tvg-id="476" group-title="Movies" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx_Sl7CiXlh4rTdkBiJ48_xcwLtl-daxqTef76P5VWeTnO_xu3OLoGcpE&s=10",Scary Movie
+#EXTINF:-1 tvg-id="476" group-title="Movies" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjE0YTE4MTYtMDhjNC00OTgzLTg3MjctM2ExYWQ4MjhlYmQzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",Second Case of Seetharam
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=null:null
 #EXTVLCOPT:http-referrer=null
 #EXTVLCOPT:http-origin=null
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTHTTP:{"cookie":"null"}
-http://160.187.56.254:8096/emby/videos/196632/stream.mp4?api_key=9c805afce4a148e2a14dd18fa955188d&Static=true&MediaSourceId=mediasource_196632&DeviceId=9743fbe0-ba28-42cb-9605-0eee90b5994b
+http://160.187.56.254:8096/emby/videos/194114/stream.mkv?api_key=9c805afce4a148e2a14dd18fa955188d&Static=true&MediaSourceId=mediasource_194114&DeviceId=9743fbe0-ba28-42cb-9605-0eee90b5994b
