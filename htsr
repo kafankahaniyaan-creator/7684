@@ -1,53 +1,166 @@
 #EXTM3U
 
-#EXTINF:-1 tvg-id="476" group-title="Movies" tvg-logo="https://m.media-amazon.com/images/M/MV5BNzY5YjI0ODUtODZkYS00NWZkLWEyYTItOWI3ZWNhZmQyZTRhXkEyXkFqcGc@._V1_.jpg",Balan-The Boy
+#EXTINF:-1 tvg-id="476" group-title="Movies" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYOVj7f8GFm4GaEUXaxB25tFGXo_RLk6NkLLAn5Gga8uyrwxvV6o20ltY&s=10-jxdYNU3jh7g&s=10",Season 1 EP 01
 #KODIPROP:inputstream.adaptive.license_key=null:null
 #EXTVLCOPT:http-referrer=null
 #EXTVLCOPT:http-origin=null
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTHTTP:{"cookie":"null"}
-http://160.187.56.254:8096/emby/videos/195154/stream.mp4?api_key=9c805afce4a148e2a14dd18fa955188d&Static=true&MediaSourceId=mediasource_195154&DeviceId=9743fbe0-ba28-42cb-9605-0eee90b5994b
+http://160.187.56.254:8096/emby/videos/178488/stream.mp4?api_key=9c805afce4a148e2a14dd18fa955188d&Static=true&MediaSourceId=mediasource_178488&DeviceId=9743fbe0-ba28-42cb-9605-0eee90b5994b
 
-#EXTINF:-1 tvg-id="476" group-title="Movies" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSR41Nr_9tIHOAPOneoOIjz6dAdETZxn_3lTzXbqpn2LmL-jxdYNU3jh7g&s=10",Hai Jawani Toh Ishq Hona Hai
+#EXTINF:-1 tvg-id="476" group-title="Movies" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYOVj7f8GFm4GaEUXaxB25tFGXo_RLk6NkLLAn5Gga8uyrwxvV6o20ltY&s=10",Season 1 EP 02
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=null:null
 #EXTVLCOPT:http-referrer=null
 #EXTVLCOPT:http-origin=null
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTHTTP:{"cookie":"null"}
-http://160.187.56.254:8096/emby/videos/197100/stream.mp4?api_key=9c805afce4a148e2a14dd18fa955188d&Static=true&MediaSourceId=mediasource_197100&DeviceId=9743fbe0-ba28-42cb-9605-0eee90b5994b
+http://160.187.56.254:8096/emby/videos/178497/stream.mp4?api_key=9c805afce4a148e2a14dd18fa955188d&Static=true&MediaSourceId=mediasource_178497&DeviceId=9743fbe0-ba28-42cb-9605-0eee90b5994b
 
-#EXTINF:-1 tvg-id="476" group-title="Movies" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6_AiJCgReg2oZcutdGcHf0eiOfugXcZKhEePM_BuT7VczXWD-QFaaE2xf&s=10",Mukhbir-The Story of a Spy
+#EXTINF:-1 tvg-id="476" group-title="Movies" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYOVj7f8GFm4GaEUXaxB25tFGXo_RLk6NkLLAn5Gga8uyrwxvV6o20ltY&s=10",Season 1 EP 03
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=null:null
 #EXTVLCOPT:http-referrer=null
 #EXTVLCOPT:http-origin=null
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTHTTP:{"cookie":"null"}
-http://160.187.56.254:8096/emby/videos/175882/stream.mp4?api_key=9c805afce4a148e2a14dd18fa955188d&Static=true&MediaSourceId=mediasource_175882&DeviceId=9743fbe0-ba28-42cb-9605-0eee90b5994b
+http://160.187.56.254:8096/emby/videos/178493/stream.mp4?api_key=9c805afce4a148e2a14dd18fa955188d&Static=true&MediaSourceId=mediasource_178493&DeviceId=9743fbe0-ba28-42cb-9605-0eee90b5994b
 
-#EXTINF:-1 tvg-id="476" group-title="Movies" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSw0A2abKb9wUnU97dQFe_qRSD_paNKmadw-JspzNXw4w&s=10",Spider-Man:No Way Home
+#EXTINF:-1 tvg-id="476" group-title="Movies" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYOVj7f8GFm4GaEUXaxB25tFGXo_RLk6NkLLAn5Gga8uyrwxvV6o20ltY&s=10",Season 1 EP 04
 #KODIPROP:inputstream.adaptive.license_key=null:null
 #EXTVLCOPT:http-referrer=null
 #EXTVLCOPT:http-origin=null
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTHTTP:{"cookie":"null"}
-http://160.187.56.254:8096/emby/videos/12424/stream.mp4?api_key=9c805afce4a148e2a14dd18fa955188d&Static=true&MediaSourceId=mediasource_12424&DeviceId=9743fbe0-ba28-42cb-9605-0eee90b5994b
+http://160.187.56.254:8096/emby/videos/178504/stream.mp4?api_key=9c805afce4a148e2a14dd18fa955188d&Static=true&MediaSourceId=mediasource_178504&DeviceId=9743fbe0-ba28-42cb-9605-0eee90b5994b
 
-#EXTINF:-1 tvg-id="476" group-title="Movies" tvg-logo="https://m.media-amazon.com/images/M/MV5BNTkyOTUyNjctNmU5MC00ZjYwLTlkODktNTRjNWY5OTk2YTc4XkEyXkFqcGc@._V1_.jpg",Patriot
+#EXTINF:-1 tvg-id="476" group-title="Movies" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYOVj7f8GFm4GaEUXaxB25tFGXo_RLk6NkLLAn5Gga8uyrwxvV6o20ltY&s=10",Season 1 EP 05
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=null:null
 #EXTVLCOPT:http-referrer=null
 #EXTVLCOPT:http-origin=null
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTHTTP:{"cookie":"null"}
-http://160.187.56.254:8096/emby/videos/193864/stream.mp4?api_key=9c805afce4a148e2a14dd18fa955188d&Static=true&MediaSourceId=mediasource_193864&DeviceId=9743fbe0-ba28-42cb-9605-0eee90b5994b
+http://160.187.56.254:8096/emby/videos/178502/stream.mp4?api_key=9c805afce4a148e2a14dd18fa955188d&Static=true&MediaSourceId=mediasource_178502&DeviceId=9743fbe0-ba28-42cb-9605-0eee90b5994b
 
-#EXTINF:-1 tvg-id="476" group-title="Movies" tvg-logo="https://m.media-amazon.com/images/M/MV5BNzQ5MjkwYTUtMGY1Ni00OGU0LWEwZjYtYWQ3MDdiMWZiZDQyXkEyXkFqcGc@._V1_.jpg",Assi
+#EXTINF:-1 tvg-id="476" group-title="Movies" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYOVj7f8GFm4GaEUXaxB25tFGXo_RLk6NkLLAn5Gga8uyrwxvV6o20ltY&s=10",Season 1 EP 06
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=null:null
 #EXTVLCOPT:http-referrer=null
 #EXTVLCOPT:http-origin=null
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTHTTP:{"cookie":"null"}
-http://160.187.56.254:8096/emby/videos/189873/stream.mkv?api_key=9c805afce4a148e2a14dd18fa955188d&Static=true&MediaSourceId=mediasource_189873&DeviceId=9743fbe0-ba28-42cb-9605-0eee90b5994b
+http://160.187.56.254:8096/emby/videos/178494/stream.mp4?api_key=9c805afce4a148e2a14dd18fa955188d&Static=true&MediaSourceId=mediasource_178494&DeviceId=9743fbe0-ba28-42cb-9605-0eee90b5994b
+
+#EXTINF:-1 tvg-id="476" group-title="Movies" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYOVj7f8GFm4GaEUXaxB25tFGXo_RLk6NkLLAn5Gga8uyrwxvV6o20ltY&s=10-jxdYNU3jh7g&s=10",Season 1 EP 07
+#KODIPROP:inputstream.adaptive.license_key=null:null
+#EXTVLCOPT:http-referrer=null
+#EXTVLCOPT:http-origin=null
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTHTTP:{"cookie":"null"}
+http://160.187.56.254:8096/emby/videos/178491/stream.mp4?api_key=9c805afce4a148e2a14dd18fa955188d&Static=true&MediaSourceId=mediasource_178491&DeviceId=9743fbe0-ba28-42cb-9605-0eee90b5994b
+
+#EXTINF:-1 tvg-id="476" group-title="Movies" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYOVj7f8GFm4GaEUXaxB25tFGXo_RLk6NkLLAn5Gga8uyrwxvV6o20ltY&s=10",Season 1 EP 08
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=null:null
+#EXTVLCOPT:http-referrer=null
+#EXTVLCOPT:http-origin=null
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTHTTP:{"cookie":"null"}
+http://160.187.56.254:8096/emby/videos/178492/stream.mp4?api_key=9c805afce4a148e2a14dd18fa955188d&Static=true&MediaSourceId=mediasource_178492&DeviceId=9743fbe0-ba28-42cb-9605-0eee90b5994b
+
+#EXTINF:-1 tvg-id="476" group-title="Movies" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYOVj7f8GFm4GaEUXaxB25tFGXo_RLk6NkLLAn5Gga8uyrwxvV6o20ltY&s=10",Season 1 EP 09
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=null:null
+#EXTVLCOPT:http-referrer=null
+#EXTVLCOPT:http-origin=null
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTHTTP:{"cookie":"null"}
+http://160.187.56.254:8096/emby/videos/178498/stream.mp4?api_key=9c805afce4a148e2a14dd18fa955188d&Static=true&MediaSourceId=mediasource_178498&DeviceId=9743fbe0-ba28-42cb-9605-0eee90b5994b
+
+#EXTINF:-1 tvg-id="476" group-title="Movies" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYOVj7f8GFm4GaEUXaxB25tFGXo_RLk6NkLLAn5Gga8uyrwxvV6o20ltY&s=10",Season 1 EP 10
+#KODIPROP:inputstream.adaptive.license_key=null:null
+#EXTVLCOPT:http-referrer=null
+#EXTVLCOPT:http-origin=null
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTHTTP:{"cookie":"null"}
+http://160.187.56.254:8096/emby/videos/178490/stream.mp4?api_key=9c805afce4a148e2a14dd18fa955188d&Static=true&MediaSourceId=mediasource_178490&DeviceId=9743fbe0-ba28-42cb-9605-0eee90b5994b
+
+#EXTINF:-1 tvg-id="476" group-title="Movies" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYOVj7f8GFm4GaEUXaxB25tFGXo_RLk6NkLLAn5Gga8uyrwxvV6o20ltY&s=10",Season 1 EP 11
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=null:null
+#EXTVLCOPT:http-referrer=null
+#EXTVLCOPT:http-origin=null
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTHTTP:{"cookie":"null"}
+http://160.187.56.254:8096/emby/videos/178501/stream.mp4?api_key=9c805afce4a148e2a14dd18fa955188d&Static=true&MediaSourceId=mediasource_178501&DeviceId=9743fbe0-ba28-42cb-9605-0eee90b5994be90b5994b
+
+#EXTINF:-1 tvg-id="476" group-title="Movies" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYOVj7f8GFm4GaEUXaxB25tFGXo_RLk6NkLLAn5Gga8uyrwxvV6o20ltY&s=10",Season 1 EP 12
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=null:null
+#EXTVLCOPT:http-referrer=null
+#EXTVLCOPT:http-origin=null
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTHTTP:{"cookie":"null"}
+http://160.187.56.254:8096/emby/videos/178496/stream.mp4?api_key=9c805afce4a148e2a14dd18fa955188d&Static=true&MediaSourceId=mediasource_178496&DeviceId=9743fbe0-ba28-42cb-9605-0eee90b5994b
+
+#EXTINF:-1 tvg-id="476" group-title="Movies" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYOVj7f8GFm4GaEUXaxB25tFGXo_RLk6NkLLAn5Gga8uyrwxvV6o20ltY&s=10-jxdYNU3jh7g&s=10",Season 1 EP 13
+#KODIPROP:inputstream.adaptive.license_key=null:null
+#EXTVLCOPT:http-referrer=null
+#EXTVLCOPT:http-origin=null
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTHTTP:{"cookie":"null"}
+http://160.187.56.254:8096/emby/videos/178500/stream.mp4?api_key=9c805afce4a148e2a14dd18fa955188d&Static=true&MediaSourceId=mediasource_178500&DeviceId=9743fbe0-ba28-42cb-9605-0eee90b5994b
+
+#EXTINF:-1 tvg-id="476" group-title="Movies" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYOVj7f8GFm4GaEUXaxB25tFGXo_RLk6NkLLAn5Gga8uyrwxvV6o20ltY&s=10",Season 1 EP 14
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=null:null
+#EXTVLCOPT:http-referrer=null
+#EXTVLCOPT:http-origin=null
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTHTTP:{"cookie":"null"}
+http://160.187.56.254:8096/emby/videos/178499/stream.mp4?api_key=9c805afce4a148e2a14dd18fa955188d&Static=true&MediaSourceId=mediasource_178499&DeviceId=9743fbe0-ba28-42cb-9605-0eee90b5994b
+
+#EXTINF:-1 tvg-id="476" group-title="Movies" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYOVj7f8GFm4GaEUXaxB25tFGXo_RLk6NkLLAn5Gga8uyrwxvV6o20ltY&s=10",Season 1 EP 15
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=null:null
+#EXTVLCOPT:http-referrer=null
+#EXTVLCOPT:http-origin=null
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTHTTP:{"cookie":"null"}
+http://160.187.56.254:8096/emby/videos/178487/stream.mp4?api_key=9c805afce4a148e2a14dd18fa955188d&Static=true&MediaSourceId=mediasource_178487&DeviceId=9743fbe0-ba28-42cb-9605-0eee90b5994b
+
+#EXTINF:-1 tvg-id="476" group-title="Movies" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYOVj7f8GFm4GaEUXaxB25tFGXo_RLk6NkLLAn5Gga8uyrwxvV6o20ltY&s=10",Season 1 EP 16
+#KODIPROP:inputstream.adaptive.license_key=null:null
+#EXTVLCOPT:http-referrer=null
+#EXTVLCOPT:http-origin=null
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTHTTP:{"cookie":"null"}
+http://160.187.56.254:8096/emby/videos/178495/stream.mp4?api_key=9c805afce4a148e2a14dd18fa955188d&Static=true&MediaSourceId=mediasource_178495&DeviceId=9743fbe0-ba28-42cb-9605-0eee90b5994b
+
+#EXTINF:-1 tvg-id="476" group-title="Movies" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYOVj7f8GFm4GaEUXaxB25tFGXo_RLk6NkLLAn5Gga8uyrwxvV6o20ltY&s=10",Season 1 EP 17
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=null:null
+#EXTVLCOPT:http-referrer=null
+#EXTVLCOPT:http-origin=null
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTHTTP:{"cookie":"null"}
+http://160.187.56.254:8096/emby/videos/178495/stream.mp4?api_key=9c805afce4a148e2a14dd18fa955188d&Static=true&MediaSourceId=mediasource_178495&DeviceId=9743fbe0-ba28-42cb-9605-0eee90b5994b
+
+#EXTINF:-1 tvg-id="476" group-title="Movies" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYOVj7f8GFm4GaEUXaxB25tFGXo_RLk6NkLLAn5Gga8uyrwxvV6o20ltY&s=10",Season 1 EP 18
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=null:null
+#EXTVLCOPT:http-referrer=null
+#EXTVLCOPT:http-origin=null
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTHTTP:{"cookie":"null"}
+http://160.187.56.254:8096/emby/videos/178503/stream.mp4?api_key=9c805afce4a148e2a14dd18fa955188d&Static=true&MediaSourceId=mediasource_178503&DeviceId=9743fbe0-ba28-42cb-9605-0eee90b5994b
+
+#EXTINF:-1 tvg-id="476" group-title="Movies" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYOVj7f8GFm4GaEUXaxB25tFGXo_RLk6NkLLAn5Gga8uyrwxvV6o20ltY&s=10",Season 1 EP 19
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=null:null
+#EXTVLCOPT:http-referrer=null
+#EXTVLCOPT:http-origin=null
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTHTTP:{"cookie":"null"}
+http://160.187.56.254:8096/emby/videos/178489/stream.mp4?api_key=9c805afce4a148e2a14dd18fa955188d&Static=true&MediaSourceId=mediasource_178489&DeviceId=9743fbe0-ba28-42cb-9605-0eee90b5994b
