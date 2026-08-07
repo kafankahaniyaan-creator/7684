@@ -1382,13 +1382,6 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/StarMoviesHD_MOB/WDVLive/index.mpd
 #EXTHTTP:{"cookie":"__hdnea__=st=1783333847~exp=1783355447~acl=/*~hmac=17c9c7519e4134ff3e5cfdc26f9beff08e2663fea484ab9a16a122c00913675a","Origin":"https://www.jiotv.com/","Referer":"https://www.jiotv.com/"}
 https://jiotvmblive.cdn.jio.com/bpk-tv/Star_Movies_Select_HD_MOB/WDVLive/index.mpd
 
-#EXTINF:-1 tvg-id="1115" group-title="English" group-logo="https://i.postimg.cc/52qG6sKt/STREAMXi.png" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Star_Movies.png",Star Movies
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=e705c9330a935a119021d97c7677ce62:dd306a57de1715b0e1256d5c1737f485
-#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0
-#EXTHTTP:{"cookie":"__hdnea__=st=1783333847~exp=1783355447~acl=/*~hmac=17c9c7519e4134ff3e5cfdc26f9beff08e2663fea484ab9a16a122c00913675a","Origin":"https://www.jiotv.com/","Referer":"https://www.jiotv.com/"}
-https://jiotvmblive.cdn.jio.com/bpk-tv/Star_Movies_MOB/WDVLive/index.mpd
-
 #EXTINF:-1 tvg-id="1158" group-title="English" group-logo="https://i.postimg.cc/52qG6sKt/STREAMXi.png" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Colors_Infinity_HD.png",Colors Infinity HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=e30e813ab8935734a197205da8a5fd80:462b1cd9a1e74b6af3132e04fc307094
@@ -2200,13 +2193,6 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/Nation_Star_News_MOB/WDVLive/index.mpd
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0
 #EXTHTTP:{"cookie":"__hdnea__=st=1783333847~exp=1783355447~acl=/*~hmac=17c9c7519e4134ff3e5cfdc26f9beff08e2663fea484ab9a16a122c00913675a","Origin":"https://www.jiotv.com/","Referer":"https://www.jiotv.com/"}
 https://jiotvmblive.cdn.jio.com/bpk-tv/Nation_NE_MOB/WDVLive/index.mpd
-
-#EXTINF:-1 tvg-id="3276" group-title="English" group-logo="https://i.postimg.cc/52qG6sKt/STREAMXi.png" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Star_Movies_Select.png",Star Movies Select
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=4b7d579e28d45041ba78c3a92f0acc92:fbf33acfca489b1354955cbfb09570b5
-#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0
-#EXTHTTP:{"cookie":"__hdnea__=st=1783333847~exp=1783355447~acl=/*~hmac=17c9c7519e4134ff3e5cfdc26f9beff08e2663fea484ab9a16a122c00913675a","Origin":"https://www.jiotv.com/","Referer":"https://www.jiotv.com/"}
-https://jiotvmblive.cdn.jio.com/bpk-tv/Star_Movies_Select_MOB/WDVLive/index.mpd
 
 #EXTINF:-1 tvg-id="3279" group-title="English" group-logo="https://i.postimg.cc/52qG6sKt/STREAMXi.png" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/OM_TV.png",OM TV
 #KODIPROP:inputstream.adaptive.license_type=clearkey
