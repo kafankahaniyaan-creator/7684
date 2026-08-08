@@ -52,54 +52,54 @@ http://160.187.56.254:8096/emby/videos/197353/stream.mkv?api_key=9c805afce4a148e
 #EXTHTTP:{"cookie":"null"}
 http://160.187.56.254:8096/emby/videos/196632/stream.mp4?api_key=9c805afce4a148e2a14dd18fa955188d&Static=true&MediaSourceId=mediasource_196632&DeviceId=9743fbe0-ba28-42cb-9605-0eee90b5994b
 
-#EXTINF:-1 tvg-id="476" group-title="Movies" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPKOyDxN6AX1kHEqtO4UhFjJHR0mNYltxDPSwyOyX6tg&s=10",Gatta Kusthi
+#EXTINF:-1 tvg-id="476" group-title="Movies" tvg-logo="https://cdn.district.in/movies-assets/images/cinema/Main-Vaapas-Aaunga_Gallery-433dea90-6664-11f1-b2f1-af7b56483228.jpg",Main Vaapas Aaunga
 #KODIPROP:inputstream.adaptive.license_key=null:null
 #EXTVLCOPT:http-referrer=null
 #EXTVLCOPT:http-origin=null
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTHTTP:{"cookie":"null"}
-http://160.187.56.254:8096/emby/videos/197147/stream.mkv?api_key=eeb4305ea0b6487890da862f1e97d81e&Static=true&MediaSourceId=mediasource_197147&DeviceId=c6c42a94-43d7-4791-9a29-e3deb26560e1
+http://160.187.56.254:8096/emby/videos/197498/stream.mkv?api_key=9c805afce4a148e2a14dd18fa955188d&Static=true&MediaSourceId=mediasource_197498&DeviceId=9743fbe0-ba28-42cb-9605-0eee90b5994b
 
-#EXTINF:-1 tvg-id="476" group-title="Movies" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvcykKf-H2UXlzcRj9UG6feJh1ZJDX5fCrVw_w3kUCGg&s=10",Peddi
+#EXTINF:-1 tvg-id="476" group-title="Movies" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSevkDKQpt_hS9yCQo61FhQmzMy18Pgx4f6xSgzPYrNTqn1Qkb24uIjeLQY&s=10",Raat Akeli Hai
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=null:null
 #EXTVLCOPT:http-referrer=null
 #EXTVLCOPT:http-origin=null
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTHTTP:{"cookie":"null"}
-http://160.187.56.254:8096/emby/videos/195530/stream.mp4?api_key=9c805afce4a148e2a14dd18fa955188d&Static=true&MediaSourceId=mediasource_195530&DeviceId=9743fbe0-ba28-42cb-9605-0eee90b5994b
+http://160.187.56.254:8096/emby/videos/136531/stream.mp4?api_key=9c805afce4a148e2a14dd18fa955188d&Static=true&MediaSourceId=mediasource_136531&DeviceId=9743fbe0-ba28-42cb-9605-0eee90b5994b
 
-#EXTINF:-1 tvg-id="476" group-title="Movies" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSe0_-lIUMIDWxwzEhDcyI2BPJJ9TAxmdfB5njOTC8E9eI8Hoc8i25m-Kw&s=10",72 Hours
+#EXTINF:-1 tvg-id="476" group-title="Movies" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTQ3MzI3Y2UtNjlkMy00ZDIzLWEwOGUtMGEzMzNlMmY3MTkzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",Inspector Zende
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=null:null
 #EXTVLCOPT:http-referrer=null
 #EXTVLCOPT:http-origin=null
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTHTTP:{"cookie":"null"}
-http://160.187.56.254:8096/emby/videos/196572/stream.mkv?api_key=9c805afce4a148e2a14dd18fa955188d&Static=true&MediaSourceId=mediasource_196572&DeviceId=9743fbe0-ba28-42cb-9605-0eee90b5994b
+http://160.187.56.254:8096/emby/videos/137820/stream.mp4?api_key=9c805afce4a148e2a14dd18fa955188d&Static=true&MediaSourceId=mediasource_137820&DeviceId=9743fbe0-ba28-42cb-9605-0eee90b5994b
 
-#EXTINF:-1 tvg-id="476" group-title="Movies" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0ICIhdrJCnNtu9pZz8zWPXDsmuLNeR4uUXda1pOXWzsErmFYTcAe_dlvo&s=10",Blast
+#EXTINF:-1 tvg-id="476" group-title="Movies" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqU29kMaHDjpXBOW1Udz2a4FEV7jcX38Oo4ir9e69lig&s=10",Mission Majnu
 #KODIPROP:inputstream.adaptive.license_key=null:null
 #EXTVLCOPT:http-referrer=null
 #EXTVLCOPT:http-origin=null
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTHTTP:{"cookie":"null"}
-http://160.187.56.254:8096/emby/videos/195037/stream.mp4?api_key=9c805afce4a148e2a14dd18fa955188d&Static=true&MediaSourceId=mediasource_195037&DeviceId=9743fbe0-ba28-42cb-9605-0eee90b5994b
+http://160.187.56.254:8096/emby/videos/137281/stream.mp4?api_key=9c805afce4a148e2a14dd18fa955188d&Static=true&MediaSourceId=mediasource_137281&DeviceId=9743fbe0-ba28-42cb-9605-0eee90b5994b
 
-#EXTINF:-1 tvg-id="476" group-title="Movies" tvg-logo="https://m.media-amazon.com/images/M/MV5BZGEyMDRmYTMtZjNhYy00Mjc0LTg4NDItYWE5NzE1ZDE3NjM2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",Daadi Ki Shaadi
+#EXTINF:-1 tvg-id="476" group-title="Movies" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW7FPNvouvCTTLJeIO6Gy5mt6sK7Zr_TMFwJT1B2830A&s=10",Tere Ishk Mein
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=null:null
 #EXTVLCOPT:http-referrer=null
 #EXTVLCOPT:http-origin=null
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTHTTP:{"cookie":"null"}
-http://160.187.56.254:8096/emby/videos/197353/stream.mkv?api_key=9c805afce4a148e2a14dd18fa955188d&Static=true&MediaSourceId=mediasource_197353&DeviceId=9743fbe0-ba28-42cb-9605-0eee90b5994b
+http://160.187.56.254:8096/emby/videos/190612/stream.mkv?api_key=9c805afce4a148e2a14dd18fa955188d&Static=true&MediaSourceId=mediasource_190612&DeviceId=9743fbe0-ba28-42cb-9605-0eee90b5994b
 
-#EXTINF:-1 tvg-id="476" group-title="Movies" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx_Sl7CiXlh4rTdkBiJ48_xcwLtl-daxqTef76P5VWeTnO_xu3OLoGcpE&s=10",Scary Movie
+#EXTINF:-1 tvg-id="476" group-title="Movies" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpCY7YQyFYyj7I90PrJbbjTx-BTLIgObooYVJPOEBqPbR4b2mIP7ZdWQ&s=10",khufiya
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=null:null
 #EXTVLCOPT:http-referrer=null
 #EXTVLCOPT:http-origin=null
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTHTTP:{"cookie":"null"}
-http://160.187.56.254:8096/emby/videos/196632/stream.mp4?api_key=9c805afce4a148e2a14dd18fa955188d&Static=true&MediaSourceId=mediasource_196632&DeviceId=9743fbe0-ba28-42cb-9605-0eee90b5994b
+http://160.187.56.254:8096/emby/videos/137343/stream.mp4?api_key=9c805afce4a148e2a14dd18fa955188d&Static=true&MediaSourceId=mediasource_137343&DeviceId=9743fbe0-ba28-42cb-9605-0eee90b5994b
