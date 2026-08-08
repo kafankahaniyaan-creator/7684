@@ -51,3 +51,55 @@ http://160.187.56.254:8096/emby/videos/197353/stream.mkv?api_key=9c805afce4a148e
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTHTTP:{"cookie":"null"}
 http://160.187.56.254:8096/emby/videos/196632/stream.mp4?api_key=9c805afce4a148e2a14dd18fa955188d&Static=true&MediaSourceId=mediasource_196632&DeviceId=9743fbe0-ba28-42cb-9605-0eee90b5994b
+
+#EXTINF:-1 tvg-id="476" group-title="Movies" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPKOyDxN6AX1kHEqtO4UhFjJHR0mNYltxDPSwyOyX6tg&s=10",Gatta Kusthi
+#KODIPROP:inputstream.adaptive.license_key=null:null
+#EXTVLCOPT:http-referrer=null
+#EXTVLCOPT:http-origin=null
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTHTTP:{"cookie":"null"}
+http://160.187.56.254:8096/emby/videos/197147/stream.mkv?api_key=eeb4305ea0b6487890da862f1e97d81e&Static=true&MediaSourceId=mediasource_197147&DeviceId=c6c42a94-43d7-4791-9a29-e3deb26560e1
+
+#EXTINF:-1 tvg-id="476" group-title="Movies" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvcykKf-H2UXlzcRj9UG6feJh1ZJDX5fCrVw_w3kUCGg&s=10",Peddi
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=null:null
+#EXTVLCOPT:http-referrer=null
+#EXTVLCOPT:http-origin=null
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTHTTP:{"cookie":"null"}
+http://160.187.56.254:8096/emby/videos/195530/stream.mp4?api_key=9c805afce4a148e2a14dd18fa955188d&Static=true&MediaSourceId=mediasource_195530&DeviceId=9743fbe0-ba28-42cb-9605-0eee90b5994b
+
+#EXTINF:-1 tvg-id="476" group-title="Movies" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSe0_-lIUMIDWxwzEhDcyI2BPJJ9TAxmdfB5njOTC8E9eI8Hoc8i25m-Kw&s=10",72 Hours
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=null:null
+#EXTVLCOPT:http-referrer=null
+#EXTVLCOPT:http-origin=null
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTHTTP:{"cookie":"null"}
+http://160.187.56.254:8096/emby/videos/196572/stream.mkv?api_key=9c805afce4a148e2a14dd18fa955188d&Static=true&MediaSourceId=mediasource_196572&DeviceId=9743fbe0-ba28-42cb-9605-0eee90b5994b
+
+#EXTINF:-1 tvg-id="476" group-title="Movies" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0ICIhdrJCnNtu9pZz8zWPXDsmuLNeR4uUXda1pOXWzsErmFYTcAe_dlvo&s=10",Blast
+#KODIPROP:inputstream.adaptive.license_key=null:null
+#EXTVLCOPT:http-referrer=null
+#EXTVLCOPT:http-origin=null
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTHTTP:{"cookie":"null"}
+http://160.187.56.254:8096/emby/videos/195037/stream.mp4?api_key=9c805afce4a148e2a14dd18fa955188d&Static=true&MediaSourceId=mediasource_195037&DeviceId=9743fbe0-ba28-42cb-9605-0eee90b5994b
+
+#EXTINF:-1 tvg-id="476" group-title="Movies" tvg-logo="https://m.media-amazon.com/images/M/MV5BZGEyMDRmYTMtZjNhYy00Mjc0LTg4NDItYWE5NzE1ZDE3NjM2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",Daadi Ki Shaadi
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=null:null
+#EXTVLCOPT:http-referrer=null
+#EXTVLCOPT:http-origin=null
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTHTTP:{"cookie":"null"}
+http://160.187.56.254:8096/emby/videos/197353/stream.mkv?api_key=9c805afce4a148e2a14dd18fa955188d&Static=true&MediaSourceId=mediasource_197353&DeviceId=9743fbe0-ba28-42cb-9605-0eee90b5994b
+
+#EXTINF:-1 tvg-id="476" group-title="Movies" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx_Sl7CiXlh4rTdkBiJ48_xcwLtl-daxqTef76P5VWeTnO_xu3OLoGcpE&s=10",Scary Movie
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=null:null
+#EXTVLCOPT:http-referrer=null
+#EXTVLCOPT:http-origin=null
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTHTTP:{"cookie":"null"}
+http://160.187.56.254:8096/emby/videos/196632/stream.mp4?api_key=9c805afce4a148e2a14dd18fa955188d&Static=true&MediaSourceId=mediasource_196632&DeviceId=9743fbe0-ba28-42cb-9605-0eee90b5994b
