@@ -1,1 +1,53 @@
+#EXTM3U
 
+#EXTINF:-1 tvg-id="476" group-title="Movies" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6oR7ksVHSuMQRzWtnnz56RV6VV1XGhgtu1WY62rvhGQ&s=10",Tillu
+#KODIPROP:inputstream.adaptive.license_key=null:null
+#EXTVLCOPT:http-referrer=null
+#EXTVLCOPT:http-origin=null
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTHTTP:{"cookie":"null"}
+http://160.187.56.254:8096/emby/videos/151467/stream.mp4?api_key=9c805afce4a148e2a14dd18fa955188d&Static=true&MediaSourceId=mediasource_151468&DeviceId=9743fbe0-ba28-42cb-9605-0eee90b5994b
+
+#EXTINF:-1 tvg-id="476" group-title="Movies" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAWULeqMHlT97F5ITcjEQYnyKyV0eVTtuDHZFLQEv7kA&s=10",Aakhir Palaayan Kab Tak
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=null:null
+#EXTVLCOPT:http-referrer=null
+#EXTVLCOPT:http-origin=null
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTHTTP:{"cookie":"null"}
+http://160.187.56.254:8096/emby/videos/137578/stream.mp4?api_key=9c805afce4a148e2a14dd18fa955188d&Static=true&MediaSourceId=mediasource_137578&DeviceId=9743fbe0-ba28-42cb-9605-0eee90b5994b
+
+#EXTINF:-1 tvg-id="476" group-title="Movies" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRij7cPx_M567uD37SkOiB-u3E5HwAgNSXFeRqEYgO43w&s=10",Aakhri Sach
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=null:null
+#EXTVLCOPT:http-referrer=null
+#EXTVLCOPT:http-origin=null
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTHTTP:{"cookie":"null"}
+http://160.187.56.254:8096/emby/videos/153800/stream.mp4?api_key=9c805afce4a148e2a14dd18fa955188d&Static=true&MediaSourceId=mediasource_153800&DeviceId=9743fbe0-ba28-42cb-9605-0eee90b5994b
+
+#EXTINF:-1 tvg-id="476" group-title="Movies" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLUjP5TjoQw4gL6xFt6vKIFA4af8w4h-kUpmJrr_JjJQ&s=10",Aaryan
+#KODIPROP:inputstream.adaptive.license_key=null:null
+#EXTVLCOPT:http-referrer=null
+#EXTVLCOPT:http-origin=null
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTHTTP:{"cookie":"null"}
+http://160.187.56.254:8096/emby/videos/151819/stream.mp4?api_key=9c805afce4a148e2a14dd18fa955188d&Static=true&MediaSourceId=mediasource_151819&DeviceId=9743fbe0-ba28-42cb-9605-0eee90b5994b
+
+#EXTINF:-1 tvg-id="476" group-title="Movies" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSLmnOg9k3v-_0fjIaj4iUPKJvCplPsFJkhGkA7p9Ayw&s=10",Agantuk
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=null:null
+#EXTVLCOPT:http-referrer=null
+#EXTVLCOPT:http-origin=null
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTHTTP:{"cookie":"null"}
+http://160.187.56.254:8096/emby/videos/139637/stream.mp4?api_key=9c805afce4a148e2a14dd18fa955188d&Static=true&MediaSourceId=mediasource_139637&DeviceId=9743fbe0-ba28-42cb-9605-0eee90b5994b
+
+#EXTINF:-1 tvg-id="476" group-title="Movies" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQU1y4QoX3G4rG9onumYvuFTPDC_HjqCrCl0PhlnkjZMg&s=10",Abraham Ozler
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=null:null
+#EXTVLCOPT:http-referrer=null
+#EXTVLCOPT:http-origin=null
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTHTTP:{"cookie":"null"}
+http://160.187.56.254:8096/emby/videos/151456/stream.mp4?api_key=9c805afce4a148e2a14dd18fa955188d&Static=true&MediaSourceId=mediasource_151456&DeviceId=9743fbe0-ba28-42cb-9605-0eee90b5994b
