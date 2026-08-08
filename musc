@@ -1,4 +1,4 @@
-#EXTM3U x-tvg-url="https://github.com/whythishome/epg/raw/refs/heads/master/guides/dishtv.in_en.xml.gz" jiotv"
+#EXTM3U x-tvg-url="https://github.com/whythishome/epg/raw/refs/heads/master/guides/dishtv.in_en.xml.gz" x-billed-message="jiotv"
 
 #EXTINF:-1 tvg-id="183" group-title="Music" group-logo="https://i.postimg.cc/52qG6sKt/STREAMXi.png" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/B4U_Music.png",B4U Music
 #KODIPROP:inputstream.adaptive.license_type=clearkey
