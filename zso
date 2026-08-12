@@ -314,7 +314,7 @@ http://pkg.uius.live/jplus/1691.mpd
 #EXTINF:-1 tvg-id="1745" group-title="Bhojpuri" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/ZeeBiskope.png",Zee Biskope
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://07live.pages.dev/clearkey
-http://pkg.uius.live/jplus/1668.mpd
+http://pkg.uius.live/jplus/1745.mpd
 
 #EXTINF:-1 tvg-id="1746" group-title="Kannada" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/ZeePowerHD.png",Zee Power HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -336,10 +336,10 @@ http://pkg.uius.live/jplus/1977.mpd
 #KODIPROP:inputstream.adaptive.license_key=https://07live.pages.dev/clearkey
 http://pkg.uius.live/jplus/2742.mpd
 
-#EXTINF:-1 tvg-id="2948" group-title="English" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/ZeeZestHD.png",Zee Zest HD
+#EXTINF:-1 tvg-id="2757" group-title="English" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/ZeeZestHD.png",Zee Zest HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://07live.pages.dev/clearkey
-http://pkg.uius.live/jplus/2948.mpd
+http://pkg.uius.live/jplus/2757.mpd
 
 #EXTINF:-1 tvg-id="2761" group-title="Movies" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/ZeeAnmolCinema2.png",Zee Anmol Cinema 2
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -356,7 +356,7 @@ http://pkg.uius.live/jplus/3031.mpd
 #KODIPROP:inputstream.adaptive.license_key=9ecfc67bf2dd54fa84495c4c299c51ec:85337048d7be42ef66f6198a99376fa7
 http://pkg.uius.live/jplus/3051.mpd
 
-#EXTINF:-1 tvg-id="3476" group-title="Unknown" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/ZeeBanglaSonar.png",Zee Bangla Sonar
+#EXTINF:-1 tvg-id="685" group-title="Unknown" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/ZeeBanglaSonar.png",Zee Bangla Sonar
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://07live.pages.dev/clearkey
-http://pkg.uius.live/jplus/3476.mpd
+http://pkg.uius.live/jplus/685.mpd
