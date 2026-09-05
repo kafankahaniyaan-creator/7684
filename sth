@@ -1,0 +1,53 @@
+#EXTM3U
+
+#EXTINF:-1 tvg-id="476" group-title="Movies" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGnidiGF106luOZDIXvHatLC-e3WBMS2bL3tikkJW3WQ&s=10",3 BHK
+#KODIPROP:inputstream.adaptive.license_key=null:null
+#EXTVLCOPT:http-referrer=null
+#EXTVLCOPT:http-origin=null
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTHTTP:{"cookie":"null"}
+http://160.187.56.254:8096/emby/videos/151860/stream.mp4?api_key=9c805afce4a148e2a14dd18fa955188d&Static=true&MediaSourceId=mediasource_151860&DeviceId=9743fbe0-ba28-42cb-9605-0eee90b5994b
+
+#EXTINF:-1 tvg-id="476" group-title="Movies" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-LrSLiBkhWs0-NaNreQ2QEDQd_EsFGubNy7Ww7YaNPg&s=10",28 Degree Celsius
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=null:null
+#EXTVLCOPT:http-referrer=null
+#EXTVLCOPT:http-origin=null
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTHTTP:{"cookie":"null"}
+http://160.187.56.254:8096/emby/videos/151761/stream.mp4?api_key=9c805afce4a148e2a14dd18fa955188d&Static=true&MediaSourceId=mediasource_151761&DeviceId=9743fbe0-ba28-42cb-9605-0eee90b5994b
+
+#EXTINF:-1 tvg-id="476" group-title="Movies" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPbMhk1escnlFdllZPUEdcIUAnmI2OJjEj_KN5DH6L5A&s=10",777 Charlie
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=null:null
+#EXTVLCOPT:http-referrer=null
+#EXTVLCOPT:http-origin=null
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTHTTP:{"cookie":"null"}
+http://160.187.56.254:8096/emby/videos/150498/stream.mp4?api_key=9c805afce4a148e2a14dd18fa955188d&Static=true&MediaSourceId=mediasource_150498&DeviceId=9743fbe0-ba28-42cb-9605-0eee90b5994b
+
+#EXTINF:-1 tvg-id="476" group-title="Movies" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyswck1I1GqnRhLAXZ0w9wpPisJ8RX2sm7wxVUw5ThzQ&s=10",A.R.M
+#KODIPROP:inputstream.adaptive.license_key=null:null
+#EXTVLCOPT:http-referrer=null
+#EXTVLCOPT:http-origin=null
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTHTTP:{"cookie":"null"}
+http://160.187.56.254:8096/emby/videos/151390/stream.mp4?api_key=9c805afce4a148e2a14dd18fa955188d&Static=true&MediaSourceId=mediasource_151390&DeviceId=9743fbe0-ba28-42cb-9605-0eee90b5994b
+
+#EXTINF:-1 tvg-id="476" group-title="Movies" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBUaC4IOry1x7ZtOf8WfwGjrJL5ZLSwaHyroqlJHmB8g&s=10",Aavesham
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=null:null
+#EXTVLCOPT:http-referrer=null
+#EXTVLCOPT:http-origin=null
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTHTTP:{"cookie":"null"}
+http://160.187.56.254:8096/emby/videos/151354/stream.mp4?api_key=9c805afce4a148e2a14dd18fa955188d&Static=true&MediaSourceId=mediasource_151354&DeviceId=9743fbe0-ba28-42cb-9605-0eee90b5994b
+
+#EXTINF:-1 tvg-id="476" group-title="Movies" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3obXOmD5M6VlU0NlYZM8OOmriOAN4huuP5VAyrD_EOg&s=10",Akhanda 2
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=null:null
+#EXTVLCOPT:http-referrer=null
+#EXTVLCOPT:http-origin=null
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTHTTP:{"cookie":"null"}
+http://160.187.56.254:8096/emby/videos/151874/stream.mp4?api_key=9c805afce4a148e2a14dd18fa955188d&Static=true&MediaSourceId=mediasource_151874&DeviceId=9743fbe0-ba28-42cb-9605-0eee90b5994b
