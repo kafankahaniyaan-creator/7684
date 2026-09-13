@@ -1,0 +1,6 @@
+#EXTINF:-1 tvg-id="613" group-title="Assamese" group-logo="https://i.postimg.cc/52qG6sKt/STREAMXi.png" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Newslive.png",Newslive
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=null:null
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36
+#EXTHTTP:{"cookie":"null","Origin":"https://www.fancode.com/","Referer":"https://www.fancode.com/"}
+https://in-mc-flive.fancode.com/mumbai/4248255_english_hls_87efb563c318369_1ta-di_h264/1080p.m3u8?hdntl=Expires=1786600175~_GO=Generated~acl=/mumbai/4248255_english_hls_87efb563c318369_1ta-di_h264/*~Signature=AVMBkTWTbzgh735LPVFMnYo9rHVSrnoV2C5U8YmRAM5A8dB8eos3F_X0JEDRkQak_4EXNzlPC6WNh2msYx4i0S_d5FwG
