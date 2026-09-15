@@ -1,0 +1,39 @@
+name: Auto Update Playlist (Clean 1-Commit)
+
+on:
+  schedule:
+    # Har 2 ghante me run hoga
+    - cron: '0 */2 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1 # History download nahi karega (super fast)
+
+      - name: Fetch Playlist from Worker
+        run: |
+          # Worker se fresh data fetch karein
+          curl -s "https://shiny-lake-ee8e.bravetubez.workers.dev/?ab54dt" -o playlist.m3u
+
+      - name: Force Push Single Clean Commit
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # Nayi orphan branch banakar purani history wipe out karega
+          git checkout --orphan temp-branch
+          git add playlist.m3u
+          git commit -m "Auto-update playlist [$(date -u +'%Y-%m-%d %H:%M:%S UTC')]"
+          
+          # Main branch ko single commit se replace karega
+          git branch -D main || true
+          git branch -m main
+          git push -f origin main
