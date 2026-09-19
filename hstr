@@ -1,0 +1,578 @@
+[
+  {
+    "id": 1,
+    "name": "STAR SPORTS 1 SELECT HD",
+    "logo": "https://img1.hotstarext.com/image/upload/f_auto/sources/r1/cms/prod/7226/597226-h.jpg",
+    "group": "Sports",
+    "mpd_url": "https://shoebinfo.qzz.io/test/hot.php/STAR-SPORTS-1-SELECT-HD.mpd",
+    "keyId": "1f64a24b3950468497390155c4880000",
+    "key": "68f788aced6c4ecb89108f22fe9ee087"
+  },
+  {
+    "id": 2,
+    "name": "STAR SPORTS 2 HD",
+    "logo": "https://i.ibb.co/x8739M8d/SS2HD.jpg",
+    "group": "Sports",
+    "mpd_url": "https://shoebinfo.qzz.io/test/hot.php/STAR-SPORTS-2-HD.mpd",
+    "keyId": "9dacc80134404c34ba184022c28d0000",
+    "key": "982183fb4d9449c995859b7cff512092"
+  },
+  {
+    "id": 3,
+    "name": "STAR SPORTS 1 HD",
+    "logo": "https://i.ibb.co/pmVQWFZ/SS1HD.jpg",
+    "group": "Sports",
+    "mpd_url": "https://shoebinfo.qzz.io/test/hot.php/STAR-SPORTS-1-HD.mpd",
+    "keyId": "b7cdde012ce04e90a08b90622e020000",
+    "key": "13603245acab444faef6cab5198de55f"
+  },
+  {
+    "id": 4,
+    "name": "STAR SPORTS 1 Hindi HD",
+    "logo": "https://img.media.jio.com/tvpimages/5/6/301982_1749665314605_l_medium.jpg",
+    "group": "Sports",
+    "mpd_url": "https://shoebinfo.qzz.io/test/hot.php/STAR-SPORTS-1-Hindi-HD.mpd",
+    "keyId": "81872faa1d6b45fa9045cdeb2e310000",
+    "key": "9b88168e61274587a471962c46b94675"
+  },
+  {
+    "id": 5,
+    "name": "STAR SPORTS 2 SELECT HD",
+    "logo": "https://img1.hotstarext.com/image/upload/f_auto/sources/r1/cms/prod/7227/597227-h.jpg",
+    "group": "Sports",
+    "mpd_url": "https://shoebinfo.qzz.io/test/hot.php/STAR-SPORTS-2-SELECT-HD.mpd",
+    "keyId": "2effd2e98f95492cb7418857bf610000",
+    "key": "f0e42f1c91fb4b59bf6684cb4478d82e"
+  },
+  {
+    "id": 6,
+    "name": "Star Sports Khel Digital",
+    "logo": "https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/270/1782998020270-h.jpg",
+    "group": "Sports",
+    "mpd_url": "https://shoebinfo.qzz.io/test/hot.php/Star-Sports-Khel-Digital.mpd",
+    "keyId": "c57bd6cb156c47c1bf86a6c4171d0000",
+    "key": "e75d26242c9944aeb91e055d0f29ee4b"
+  },
+  {
+    "id": 7,
+    "name": "Star Sports 1 Digital",
+    "logo": "https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/7482/1782284567482-h.jpg",
+    "group": "Sports",
+    "mpd_url": "https://shoebinfo.qzz.io/test/hot.php/Star-Sports-1-Digital.mpd",
+    "keyId": "e85897bf6e594d698b7c82646c8e0000",
+    "key": "d2dda31234ae40538843e871cd4dcc2a"
+  },
+  {
+    "id": 8,
+    "name": "Star Sports 2 Digital",
+    "logo": "https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/7957/1783000567957-h.jpg",
+    "group": "Sports",
+    "mpd_url": "https://shoebinfo.qzz.io/test/hot.php/Star-Sports-2-Digital.mpd",
+    "keyId": "14d0c8ee09944c32bafea44a987d0000",
+    "key": "74d35f4034b14854bd3ca83dd3aa2fb1"
+  },
+  {
+    "id": 9,
+    "name": "Star Sports 2 Hindi Digital",
+    "logo": "https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/6371/1783000736371-h.jpg",
+    "group": "Sports",
+    "mpd_url": "https://shoebinfo.qzz.io/test/hot.php/Star-Sports-2-Hindi-Digital.mpd",
+    "keyId": "effcadcbcc634296a6cf65e231f10000",
+    "key": "569c794c69ea496e9ad1887f557ea4dc"
+  },
+  {
+    "id": 10,
+    "name": "Star Sports 2 Telugu Digital",
+    "logo": "https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/2716/1783000912716-h.jpg",
+    "group": "Sports",
+    "mpd_url": "https://shoebinfo.qzz.io/test/hot.php/Star-Sports-2-Telugu-Digital.mpd",
+    "keyId": "4de245d511444b37a263c1d86ce70000",
+    "key": "b326780ffb3d4dcf8d30fbc0f3008a22"
+  },
+  {
+    "id": 11,
+    "name": "Star Sports 1 Hindi Digital",
+    "logo": "https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/8867/1782284658867-h.jpg",
+    "group": "Sports",
+    "mpd_url": "https://shoebinfo.qzz.io/test/hot.php/Star-Sports-1-Hindi-Digital.mpd",
+    "keyId": "b9f1cb8a1361457bbd8097f8c2590000",
+    "key": "1960274b7ba344cb899eba2e80916774"
+  },
+  {
+    "id": 12,
+    "name": "Star Sports 1 Telugu Digital",
+    "logo": "https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/6361/1782284846361-h.jpg",
+    "group": "Sports",
+    "mpd_url": "https://shoebinfo.qzz.io/test/hot.php/Star-Sports-1-Telugu-Digital.mpd",
+    "keyId": "4634b32328f242e3be51c3e06cde0000",
+    "key": "42e90ab215bf4a438b55851b5e0f50dc"
+  },
+  {
+    "id": 13,
+    "name": "Star Sports 1 Tamil Digital",
+    "logo": "https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/6839/1782284756839-h.jpg",
+    "group": "Sports",
+    "mpd_url": "https://shoebinfo.qzz.io/test/hot.php/Star-Sports-1-Tamil-Digital.mpd",
+    "keyId": "01cc63d414394296bb3e6cfaffee0000",
+    "key": "c1fba587fc8b4218ade5ace1e62e5aaf"
+  },
+  {
+    "id": 14,
+    "name": "Star Sports 1 Kannada Digital",
+    "logo": "https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/8138/1782284928138-h.jpg",
+    "group": "Sports",
+    "mpd_url": "https://shoebinfo.qzz.io/test/hot.php/Star-Sports-1-Kannada-Digital.mpd",
+    "keyId": "eb2f9710abf44bb1bcf51400ccc00000",
+    "key": "5f29f372823346e78934431f2a924065"
+  },
+  {
+    "id": 15,
+    "name": "Star Sports 2 Tamil Digital",
+    "logo": "https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/6676/1783000836676-h.jpg",
+    "group": "Sports",
+    "mpd_url": "https://shoebinfo.qzz.io/test/hot.php/Star-Sports-2-Tamil-Digital.mpd",
+    "keyId": "8cecd7ec1ee04eecb49ddbdc8c420000",
+    "key": "499ea72b59f14337a0acb057cd9dffc0"
+  },
+  {
+    "id": 16,
+    "name": "Star Sports 2 Kannada Digital",
+    "logo": "https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/4797/1783000974797-h.jpg",
+    "group": "Sports",
+    "mpd_url": "https://shoebinfo.qzz.io/test/hot.php/Star-Sports-2-Kannada-Digital.mpd",
+    "keyId": "ae315fa52d544372a525f8b947a50000",
+    "key": "8224183f754244c09664e825535aea4e"
+  },
+  {
+    "id": 17,
+    "name": "Star Sports 3 Digital",
+    "logo": "https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/2523/1783001062523-h.jpg",
+    "group": "Sports",
+    "mpd_url": "https://shoebinfo.qzz.io/test/hot.php/Star-Sports-3-Digital.mpd",
+    "keyId": "f718ac1c70414b7ead6ebffa05fa0000",
+    "key": "7b3a3cb3eda946de88aa44bbaaa179bb"
+  },
+  {
+    "id": 18,
+    "name": "Star Sports Select 1 Digital",
+    "logo": "https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/1176/1783001141176-h.jpg",
+    "group": "Sports",
+    "mpd_url": "https://shoebinfo.qzz.io/test/hot.php/Star-Sports-Select-1-Digital.mpd",
+    "keyId": "ae3b1efc6eee47fa90e0360b16ad0000",
+    "key": "3c8be3ec7a4e4ab6994725420d95f971"
+  },
+  {
+    "id": 19,
+    "name": "Star Sports Select 2 Digital",
+    "logo": "https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/7266/1783001217266-h.jpg",
+    "group": "Sports",
+    "mpd_url": "https://shoebinfo.qzz.io/test/hot.php/Star-Sports-Select-2-Digital.mpd",
+    "keyId": "9bced3f4d794419e99012ad6c1090000",
+    "key": "c4c7f22fc71445c28ea15cb3fdb1b3be"
+  },
+  {
+    "id": 20,
+    "name": "ESPN 1 AFRICA LIVE",
+    "logo": "https://cdn.sanity.io/images/1pn9obcz/production/467001ec48f124382a8e5662dddb0a7b07e72913-1920x1080.jpg",
+    "group": "Sports",
+    "mpd_url": "https://shoebinfo.qzz.io/test/hot.php/ESPN-1-AFRICA-LIVE.mpd",
+    "keyId": "f91a31529aae44db8edd6458436d0000",
+    "key": "88e3db66781f46ba81e6b33798e9c957"
+  },
+  {
+    "id": 21,
+    "name": "Star Suvarna",
+    "logo": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7429/567429-h.jpg",
+    "group": "Entertainment",
+    "mpd_url": "https://shoebinfo.qzz.io/test/hot.php/Star-Suvarna.mpd",
+    "keyId": "786fe347f558460398b9e42e1db50000",
+    "key": "d630fb6469c3457e9d7c4bb863e1fef1"
+  },
+  {
+    "id": 22,
+    "name": "Star Pravah",
+    "logo": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/5868/595868-h.jpg",
+    "group": "Entertainment",
+    "mpd_url": "https://shoebinfo.qzz.io/test/hot.php/Star-Pravah.mpd",
+    "keyId": "9d300f38d30d4829b2e525a037560000",
+    "key": "706572c4aac0420f90a778e22116b320"
+  },
+  {
+    "id": 23,
+    "name": "Asianet Plus",
+    "logo": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7424/567424-h.jpg",
+    "group": "Entertainment",
+    "mpd_url": "https://shoebinfo.qzz.io/test/hot.php/Asianet-Plus.mpd",
+    "keyId": "5f1a41f1f8c04e209dfcdfff2fdc0000",
+    "key": "e0a5f3aa6afe414b902d6b729dd9b11b"
+  },
+  {
+    "id": 24,
+    "name": "Star Jalsha",
+    "logo": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7419/567419-h.jpg",
+    "group": "Entertainment",
+    "mpd_url": "https://shoebinfo.qzz.io/test/hot.php/Star-Jalsha.mpd",
+    "keyId": "94b8e23444db4af3b81dc2840c930000",
+    "key": "d7c43050ca6d4e1ab3a296c91a4bb38e"
+  },
+  {
+    "id": 25,
+    "name": "Asianet",
+    "logo": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7420/567420-h.jpg",
+    "group": "Entertainment",
+    "mpd_url": "https://shoebinfo.qzz.io/test/hot.php/Asianet.mpd",
+    "keyId": "1dd2d0a48be14cc3a9666d861dd60000",
+    "key": "24e889ab81444af0bceb8f8b9a530b18"
+  },
+  {
+    "id": 26,
+    "name": "StarPlus",
+    "logo": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7415/567415-h.jpg",
+    "group": "Entertainment",
+    "mpd_url": "https://shoebinfo.qzz.io/test/hot.php/StarPlus.mpd",
+    "keyId": "17a6e6ef02f74d9bbce4640371d40000",
+    "key": "7a89315d2ec84875901dce2d3044556c"
+  },
+  {
+    "id": 27,
+    "name": "Star Vijay",
+    "logo": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7409/567409-h.jpg",
+    "group": "Entertainment",
+    "mpd_url": "https://shoebinfo.qzz.io/test/hot.php/Star-Vijay.mpd",
+    "keyId": "652811d06b3545a3a1f20c1b03700000",
+    "key": "d3db194166ee44b3b5c9c719aa9cdd63"
+  },
+  {
+    "id": 28,
+    "name": "Star Utsav",
+    "logo": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7407/567407-h.jpg",
+    "group": "Entertainment",
+    "mpd_url": "https://shoebinfo.qzz.io/test/hot.php/Star-Utsav.mpd",
+    "keyId": "88f55cce9ba94df6b009f2433ef90000",
+    "key": "6f33ae9e6fa24f95b82e538563b1cbaf"
+  },
+  {
+    "id": 29,
+    "name": "Star Maa",
+    "logo": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7418/567418-h.jpg",
+    "group": "Entertainment",
+    "mpd_url": "https://shoebinfo.qzz.io/test/hot.php/Star-Maa.mpd",
+    "keyId": "b13dd22b45644e798457508fcdf70000",
+    "key": "2c965c36ef5242f68a878952f993a591"
+  },
+  {
+    "id": 30,
+    "name": "Star Bharat",
+    "logo": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7406/567406-h.jpg",
+    "group": "Entertainment",
+    "mpd_url": "https://shoebinfo.qzz.io/test/hot.php/Star-Bharat.mpd",
+    "keyId": "4271050207424ba8b3e65c602d7e0000",
+    "key": "8fdd910f634b40fdb5bfde551e08fd6c"
+  },
+  {
+    "id": 31,
+    "name": "Star Suvarna Plus",
+    "logo": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7399/567399-h.jpg",
+    "group": "Entertainment",
+    "mpd_url": "https://shoebinfo.qzz.io/test/hot.php/Star-Suvarna-Plus.mpd",
+    "keyId": "ffcedf61e9544d1da7db98277a290000",
+    "key": "cea7c92c93f04c6daaf31e2fda5e6809"
+  },
+  {
+    "id": 32,
+    "name": "Asianet Digital",
+    "logo": "https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/7408/1782289617408-h.jpg",
+    "group": "Entertainment",
+    "mpd_url": "https://shoebinfo.qzz.io/test/hot.php/Asianet-Digital.mpd",
+    "keyId": "31a5c9e538e0462b9424921dd21d0000",
+    "key": "117c7548f5574b638411c138fd3e2ed6"
+  },
+  {
+    "id": 33,
+    "name": "Star Plus Digital",
+    "logo": "https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/2384/1782291852384-h.jpg",
+    "group": "Entertainment",
+    "mpd_url": "https://shoebinfo.qzz.io/test/hot.php/Star-Plus-Digital.mpd",
+    "keyId": "f7bbfeaf9f7f4cada833072e21ed0000",
+    "key": "d67f3522fb5a4b1d96daba62990a214e"
+  },
+  {
+    "id": 34,
+    "name": "Star Jalsha Digital",
+    "logo": "https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/4452/1782290464452-h.jpg",
+    "group": "Entertainment",
+    "mpd_url": "https://shoebinfo.qzz.io/test/hot.php/Star-Jalsha-Digital.mpd",
+    "keyId": "2042ab988f5e4d95b03f9a01933c0000",
+    "key": "3873b7044900428cb019fee9d14fd14a"
+  },
+  {
+    "id": 35,
+    "name": "Star Maa Digital",
+    "logo": "https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/1759/1782290731759-h.jpg",
+    "group": "Entertainment",
+    "mpd_url": "https://shoebinfo.qzz.io/test/hot.php/Star-Maa-Digital.mpd",
+    "keyId": "3a6865c2eb484c57806a76e2719b0000",
+    "key": "97c95a3bbfd344d9a16d96bad4f42ad7"
+  },
+  {
+    "id": 36,
+    "name": "Star Pravah Digital",
+    "logo": "https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/5780/1782291675780-h.jpg",
+    "group": "Entertainment",
+    "mpd_url": "https://shoebinfo.qzz.io/test/hot.php/Star-Pravah-Digital.mpd",
+    "keyId": "f7efc99766e643e687b1a228ae000000",
+    "key": "6d45b6ab1b2840be943c8a99e8a0a0e5"
+  },
+  {
+    "id": 37,
+    "name": "Colors Bangla Digital",
+    "logo": "https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/8049/1782291598049-h.jpg",
+    "group": "Entertainment",
+    "mpd_url": "https://shoebinfo.qzz.io/test/hot.php/Colors-Bangla-Digital.mpd",
+    "keyId": "4221bf5c8de94ff792982ee906a20000",
+    "key": "d53a4b3ab73f454c8b7a4e7b7454fd97"
+  },
+  {
+    "id": 38,
+    "name": "Star Vijay Digital",
+    "logo": "https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/698/1782289770698-h.jpg",
+    "group": "Entertainment",
+    "mpd_url": "https://shoebinfo.qzz.io/test/hot.php/Star-Vijay-Digital.mpd",
+    "keyId": "3d16a12b7fe0423d87e00c231d710000",
+    "key": "f6aeb5898e5c4d8bab629a9de8befa12"
+  },
+  {
+    "id": 39,
+    "name": "Star Suvarna Digital",
+    "logo": "https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/6396/1782290646396-h.jpg",
+    "group": "Entertainment",
+    "mpd_url": "https://shoebinfo.qzz.io/test/hot.php/Star-Suvarna-Digital.mpd",
+    "keyId": "d33b34f86a214120a3850f04a11e0000",
+    "key": "36245c3005ce4f94a6d927d435508019"
+  },
+  {
+    "id": 40,
+    "name": "Colors Digital",
+    "logo": "https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/108/1782291760108-h.jpg",
+    "group": "Entertainment",
+    "mpd_url": "https://shoebinfo.qzz.io/test/hot.php/Colors-Digital.mpd",
+    "keyId": "f762f7bf6bf04c999f861cc3dafe0000",
+    "key": "25ec2364467f40b09fc1e9a7c1e72058"
+  },
+  {
+    "id": 41,
+    "name": "Colors Kannada Digital",
+    "logo": "https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/3440/1782291243440-h.jpg",
+    "group": "Entertainment",
+    "mpd_url": "https://shoebinfo.qzz.io/test/hot.php/Colors-Kannada-Digital.mpd",
+    "keyId": "2427721df70c4992b6e2cf7d2abf0000",
+    "key": "fb1d4dc6142344278550d82972ae003b"
+  },
+  {
+    "id": 42,
+    "name": "Vijay Super Digital",
+    "logo": "https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/1929/1782285031929-h.jpg",
+    "group": "Entertainment",
+    "mpd_url": "https://shoebinfo.qzz.io/test/hot.php/Vijay-Super-Digital.mpd",
+    "keyId": "08e4a1c2f55d4ed4878110a640920000",
+    "key": "23dc3107bf284a0dbd93b1dc9f142459"
+  },
+  {
+    "id": 43,
+    "name": "Asianet Plus Digital",
+    "logo": "https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/9207/1782286239207-h.jpg",
+    "group": "Entertainment",
+    "mpd_url": "https://shoebinfo.qzz.io/test/hot.php/Asianet-Plus-Digital.mpd",
+    "keyId": "bfe3e4a7670e416d85261d002c3a0000",
+    "key": "25955bb289a94ef5978ffa689eea066d"
+  },
+  {
+    "id": 44,
+    "name": "Colors Super Digital",
+    "logo": "https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/6181/1782290986181-h.jpg",
+    "group": "Entertainment",
+    "mpd_url": "https://shoebinfo.qzz.io/test/hot.php/Colors-Super-Digital.mpd",
+    "keyId": "b3eb9d890c5c46f4b35595337c070000",
+    "key": "c57a0ca2eeda41eeb83a0246d116c1d6"
+  },
+  {
+    "id": 45,
+    "name": "Star Utsav Digital",
+    "logo": "https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/9181/1782291429181-h.jpg",
+    "group": "Entertainment",
+    "mpd_url": "https://shoebinfo.qzz.io/test/hot.php/Star-Utsav-Digital.mpd",
+    "keyId": "c3560074f30e4257ba6dfb196ecb0000",
+    "key": "e044fed2851f4c268b59de3ef815d404"
+  },
+  {
+    "id": 46,
+    "name": "Colors Marathi Digital",
+    "logo": "https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/5106/1782291335106-h.jpg",
+    "group": "Entertainment",
+    "mpd_url": "https://shoebinfo.qzz.io/test/hot.php/Colors-Marathi-Digital.mpd",
+    "keyId": "7baa28b028744858b64a7077e3f00000",
+    "key": "8fcb860f70bc41b98e11cb7aee4f221b"
+  },
+  {
+    "id": 47,
+    "name": "Colors Rishtey Digital",
+    "logo": "https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/9097/1782290579097-h.jpg",
+    "group": "Entertainment",
+    "mpd_url": "https://shoebinfo.qzz.io/test/hot.php/Colors-Rishtey-Digital.mpd",
+    "keyId": "99ccf903f1334204923c58cb8f190000",
+    "key": "d91830218d044a218f46938c421ec49b"
+  },
+  {
+    "id": 48,
+    "name": "Star Bharat Digital",
+    "logo": "https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/8704/1782288318704-h.jpg",
+    "group": "Entertainment",
+    "mpd_url": "https://shoebinfo.qzz.io/test/hot.php/Star-Bharat-Digital.mpd",
+    "keyId": "b271001a8d2448aab89c0f5fc84f0000",
+    "key": "a76a5ecde8764d8b9e40ce84888de269"
+  },
+  {
+    "id": 49,
+    "name": "Star Kiran Digital",
+    "logo": "https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/7412/1782282697412-h.jpg",
+    "group": "Entertainment",
+    "mpd_url": "https://shoebinfo.qzz.io/test/hot.php/Star-Kiran-Digital.mpd",
+    "keyId": "b81f831b7b2f4173aa16f7ec64340000",
+    "key": "17b89f2c4e754dac87b91981a6cd7ad2"
+  },
+  {
+    "id": 50,
+    "name": "Star Maa Movies",
+    "logo": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7421/567421-h.jpg",
+    "group": "Movies",
+    "mpd_url": "https://shoebinfo.qzz.io/test/hot.php/Star-Maa-Movies.mpd",
+    "keyId": "18b7ece05d094614a3839978b9330000",
+    "key": "267ba7674fbd4076bbf797eaa1dd16d0"
+  },
+  {
+    "id": 51,
+    "name": "Star Gold",
+    "logo": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7403/567403-h.jpg",
+    "group": "Movies",
+    "mpd_url": "https://shoebinfo.qzz.io/test/hot.php/Star-Gold.mpd",
+    "keyId": "c3c8fd55071348e9992be759ceab0000",
+    "key": "b894ad9ee2ad483fb2a5b71db0434bfc"
+  },
+  {
+    "id": 52,
+    "name": "Jalsha Movies",
+    "logo": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7404/567404-h.jpg",
+    "group": "Movies",
+    "mpd_url": "https://shoebinfo.qzz.io/test/hot.php/Jalsha-Movies.mpd",
+    "keyId": "a515368ea6bc4d76a1aebc22f4660000",
+    "key": "e46451b6cdae433ab6e719f39dcc449e"
+  },
+  {
+    "id": 53,
+    "name": "Asianet Movies",
+    "logo": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7400/567400-h.jpg",
+    "group": "Movies",
+    "mpd_url": "https://shoebinfo.qzz.io/test/hot.php/Asianet-Movies.mpd",
+    "keyId": "53e552bf422a4feeb017e38ba43e0000",
+    "key": "9cf91549836b4ce98e9d8137591dd38e"
+  },
+  {
+    "id": 54,
+    "name": "Maa Gold",
+    "logo": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7408/567408-h.jpg",
+    "group": "Movies",
+    "mpd_url": "https://shoebinfo.qzz.io/test/hot.php/Maa-Gold.mpd",
+    "keyId": "ab4cba34a7084eddbd6edf6a16460000",
+    "key": "fd1cb8f19b2e42838d4ace714427ec76"
+  },
+  {
+    "id": 55,
+    "name": "Asianet Movies Digital",
+    "logo": "https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/7227/1782288617227-h.jpg",
+    "group": "Movies",
+    "mpd_url": "https://shoebinfo.qzz.io/test/hot.php/Asianet-Movies-Digital.mpd",
+    "keyId": "6622e3b665db40be8b755150ff6e0000",
+    "key": "4f4ab9edf51d4d39acff73b6dacb0b47"
+  },
+  {
+    "id": 56,
+    "name": "Colors Bangla Cinema Digital",
+    "logo": "https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/4599/1782289524599-h.jpg",
+    "group": "Movies",
+    "mpd_url": "https://shoebinfo.qzz.io/test/hot.php/Colors-Bangla-Cinema-Digital.mpd",
+    "keyId": "01c12a7218654c38b7b38eaeb40e0000",
+    "key": "41eca141f03640a3b8fede56336cffcf"
+  },
+  {
+    "id": 57,
+    "name": "Jalsha Movies Digital",
+    "logo": "https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/1445/1782291521445-h.jpg",
+    "group": "Movies",
+    "mpd_url": "https://shoebinfo.qzz.io/test/hot.php/Jalsha-Movies-Digital.mpd",
+    "keyId": "6e8ac9c358014b88ab8bae9c5fc70000",
+    "key": "7c8ae76486624b8eaa7e24b852e08abc"
+  },
+  {
+    "id": 58,
+    "name": "Maa Movies Digital",
+    "logo": "https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/2722/1782288522722-h.jpg",
+    "group": "Movies",
+    "mpd_url": "https://shoebinfo.qzz.io/test/hot.php/Maa-Movies-Digital.mpd",
+    "keyId": "c559e8b9079a458eadd5e9c7dbb40000",
+    "key": "b6f184b3e9734b328773686363bfc465"
+  },
+  {
+    "id": 59,
+    "name": "Star Gold Digital",
+    "logo": "https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/6567/1784547656567-h.jpg",
+    "group": "Movies",
+    "mpd_url": "https://shoebinfo.qzz.io/test/hot.php/Star-Gold-Digital.mpd",
+    "keyId": "2b582b2495204a1396cd8a714a2a0000",
+    "key": "43992282cef64e1ca7ac3f8f6e633324"
+  },
+  {
+    "id": 60,
+    "name": "Colors Cineplex Digital",
+    "logo": "https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/3042/1782291173042-h.jpg",
+    "group": "Movies",
+    "mpd_url": "https://shoebinfo.qzz.io/test/hot.php/Colors-Cineplex-Digital.mpd",
+    "keyId": "215ced4a1eb7400488d290d09ebe0000",
+    "key": "71b4165c9e294b06b88c1e0f4e953cc2"
+  },
+  {
+    "id": 61,
+    "name": "Colors Kannada Cinema Digital",
+    "logo": "https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/3489/1782291093489-h.jpg",
+    "group": "Movies",
+    "mpd_url": "https://shoebinfo.qzz.io/test/hot.php/Colors-Kannada-Cinema-Digital.mpd",
+    "keyId": "f61b43f2b3a34a5daafacc05b7a30000",
+    "key": "7105b6b6de914502a54667970e2dc9c0"
+  },
+  {
+    "id": 62,
+    "name": "Nick Plus Digital",
+    "logo": "https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/470/1783938260470-h.jpg",
+    "group": "Kids",
+    "mpd_url": "https://shoebinfo.qzz.io/test/hot.php/Nick-Plus-Digital.mpd",
+    "keyId": "8446d54c24f549ba9c9323836a060000",
+    "key": "db25bb59ba41470e82e4728f46781954"
+  },
+  {
+    "id": 63,
+    "name": "Nick Digital",
+    "logo": "https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/6807/1784039246807-h.jpg",
+    "group": "Kids",
+    "mpd_url": "https://shoebinfo.qzz.io/test/hot.php/Nick-Digital.mpd",
+    "keyId": "b0a76fc24ad548c5b92fb4eebfe90000",
+    "key": "f7c8dc574a6e4937ab2c15e8ae2acedb"
+  },
+  {
+    "id": 64,
+    "name": "Sonic Digital",
+    "logo": "https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/6294/1782290926294-h.jpg",
+    "group": "Kids",
+    "mpd_url": "https://shoebinfo.qzz.io/test/hot.php/Sonic-Digital.mpd",
+    "keyId": "3d939611fa2e489bb4a7b58d10c10000",
+    "key": "1fba40d5aa564f079c8c7e378ccb3019"
+  }
+]
