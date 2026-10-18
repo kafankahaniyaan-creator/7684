@@ -1,0 +1,127 @@
+#EXTM3U x-tvg-url="https://github.com/whythishome/epg/raw/refs/heads/master/guides/dishtv.in_en.xml.gz" x-billed-message="jiotv"
+
+#EXTINF:-1 tvg-id="183" group-title="Music" group-logo="https://i.postimg.cc/52qG6sKt/STREAMXi.png" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/B4U_Music.png",B4U Music
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0000:0000
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0
+#EXTHTTP:{"cookie":"__hdnea__=st=1783333847~exp=1783355447~acl=/*~hmac=17c9c7519e4134ff3e5cfdc26f9beff08e2663fea484ab9a16a122c00913675a","Origin":"https://www.jiotv.com/","Referer":"https://www.jiotv.com/"}
+https://jiotvmblive.cdn.jio.com/bpk-tv/b4u_music/HLSPartner/index.m3u8
+
+#EXTINF:-1 tvg-id="248" group-title="Music" group-logo="https://i.postimg.cc/52qG6sKt/STREAMXi.png" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/MTV.png",MTV
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=c84c1d16aec75d83922576012f677b02:cfb4f09bf78760c9caf7afcc2c74b6e7
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0
+#EXTHTTP:{"cookie":"__hdnea__=st=1783333847~exp=1783355447~acl=/*~hmac=17c9c7519e4134ff3e5cfdc26f9beff08e2663fea484ab9a16a122c00913675a","Origin":"https://www.jiotv.com/","Referer":"https://www.jiotv.com/"}
+https://jiotvmblive.cdn.jio.com/bpk-tv/MTV_MOB/WDVLive/index.mpd
+
+#EXTINF:-1 tvg-id="250" group-title="Music" group-logo="https://i.postimg.cc/52qG6sKt/STREAMXi.png" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Music_India.png",Music India
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=48240328d04d5e2ea776dd51a8098f8e:2e30947d51d3f5164ba4bb20a8433c7d
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0
+#EXTHTTP:{"cookie":"__hdnea__=st=1783333847~exp=1783355447~acl=/*~hmac=17c9c7519e4134ff3e5cfdc26f9beff08e2663fea484ab9a16a122c00913675a","Origin":"https://www.jiotv.com/","Referer":"https://www.jiotv.com/"}
+https://jiotvmblive.cdn.jio.com/bpk-tv/Music_India_MOB/WDVLive/index.mpd
+
+#EXTINF:-1 tvg-id="440" group-title="Music" group-logo="https://i.postimg.cc/52qG6sKt/STREAMXi.png" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/9XJalwa.png",9X Jalwa
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0000:0000
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0
+#EXTHTTP:{"cookie":"__hdnea__=st=1783333847~exp=1783355447~acl=/*~hmac=17c9c7519e4134ff3e5cfdc26f9beff08e2663fea484ab9a16a122c00913675a","Origin":"https://www.jiotv.com/","Referer":"https://www.jiotv.com/"}
+https://jiotvmblive.cdn.jio.com/bpk-tv/9XJalwa/HLSPartner/index.m3u8
+
+#EXTINF:-1 tvg-id="585" group-title="Music" group-logo="https://i.postimg.cc/52qG6sKt/STREAMXi.png" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/ZeeZing.png",Zing
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=648632d8a99d59ef86fd651405ffb587:027c47023b8eb258db20ac6ae7ba46a8
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0
+#EXTHTTP:{"cookie":"__hdnea__=st=1783333847~exp=1783355447~acl=/*~hmac=17c9c7519e4134ff3e5cfdc26f9beff08e2663fea484ab9a16a122c00913675a","Origin":"https://www.jiotv.com/","Referer":"https://www.jiotv.com/"}
+https://jiotvmblive.cdn.jio.com/bpk-tv/ZeeZing_MOB/WDVLive/index.mpd
+
+#EXTINF:-1 tvg-id="587" group-title="Music" group-logo="https://i.postimg.cc/52qG6sKt/STREAMXi.png" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/9xm.png",9XM
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0000:0000
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0
+#EXTHTTP:{"cookie":"__hdnea__=st=1783333847~exp=1783355447~acl=/*~hmac=17c9c7519e4134ff3e5cfdc26f9beff08e2663fea484ab9a16a122c00913675a","Origin":"https://www.jiotv.com/","Referer":"https://www.jiotv.com/"}
+https://jiotvmblive.cdn.jio.com/bpk-tv/9xm/HLSPartner/index.m3u8
+
+#EXTINF:-1 tvg-id="591" group-title="Music" group-logo="https://i.postimg.cc/52qG6sKt/STREAMXi.png" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/E_24.png",E 24
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=00ca7fea402a577f9fa7acf42f44af0b:f2513e4d0a1ad05a97cc36e550cb799d
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0
+#EXTHTTP:{"cookie":"__hdnea__=st=1783333847~exp=1783355447~acl=/*~hmac=17c9c7519e4134ff3e5cfdc26f9beff08e2663fea484ab9a16a122c00913675a","Origin":"https://www.jiotv.com/","Referer":"https://www.jiotv.com/"}
+https://jiotvmblive.cdn.jio.com/bpk-tv/E_24_MOB/WDVLive/index.mpd
+
+#EXTINF:-1 tvg-id="592" group-title="Music" group-logo="https://i.postimg.cc/52qG6sKt/STREAMXi.png" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Zoom.png",ZOOM
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=1a144ade8f5357dd81862285cd921c5b:b0c84f4255ba4f8082c9b13089ddb9cc
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0
+#EXTHTTP:{"cookie":"__hdnea__=st=1783333847~exp=1783355447~acl=/*~hmac=17c9c7519e4134ff3e5cfdc26f9beff08e2663fea484ab9a16a122c00913675a","Origin":"https://www.jiotv.com/","Referer":"https://www.jiotv.com/"}
+https://jiotvmblive.cdn.jio.com/bpk-tv/Zoom_MOB/WDVLive/index.mpd
+
+#EXTINF:-1 tvg-id="1145" group-title="Music" group-logo="https://i.postimg.cc/52qG6sKt/STREAMXi.png" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/MTV_HD_Plus.png",MTV HD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=b8972143db295ee891a18692ddee0f8b:c48a806fadcb2ef8ae800d128c6f3332
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0
+#EXTHTTP:{"cookie":"__hdnea__=st=1783333847~exp=1783355447~acl=/*~hmac=17c9c7519e4134ff3e5cfdc26f9beff08e2663fea484ab9a16a122c00913675a","Origin":"https://www.jiotv.com/","Referer":"https://www.jiotv.com/"}
+https://jiotvmblive.cdn.jio.com/bpk-tv/MTV_HD_Plus_MOB/WDVLive/index.mpd
+
+#EXTINF:-1 tvg-id="1286" group-title="Music" group-logo="https://i.postimg.cc/52qG6sKt/STREAMXi.png" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Insync.png",Insync
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=654f36d8a6135c568dee1374257d6a07:d3871825ddc5a8201cfae2298564d5b1
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0
+#EXTHTTP:{"cookie":"__hdnea__=st=1783333847~exp=1783355447~acl=/*~hmac=17c9c7519e4134ff3e5cfdc26f9beff08e2663fea484ab9a16a122c00913675a","Origin":"https://www.jiotv.com/","Referer":"https://www.jiotv.com/"}
+https://jiotvmblive.cdn.jio.com/bpk-tv/Insync_MOB/WDVLive/index.mpd
+
+#EXTINF:-1 tvg-id="1411" group-title="Music" group-logo="https://i.postimg.cc/52qG6sKt/STREAMXi.png" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/SongDew_TV.png",SongDew TV
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=9e9a52da03e65869a7615120172ac135:74fbbf422b23c53c05294ce1a0ecacaa
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0
+#EXTHTTP:{"cookie":"__hdnea__=st=1783333847~exp=1783355447~acl=/*~hmac=17c9c7519e4134ff3e5cfdc26f9beff08e2663fea484ab9a16a122c00913675a","Origin":"https://www.jiotv.com/","Referer":"https://www.jiotv.com/"}
+https://jiotvmblive.cdn.jio.com/bpk-tv/SongDew_TV_MOB/WDVLive/index.mpd
+
+#EXTINF:-1 tvg-id="1694" group-title="Music" group-logo="https://i.postimg.cc/52qG6sKt/STREAMXi.png" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Haryana_Beats.png",Haryana Beats
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=acfeeb49c1fb5d8ca3071e8b47a41b68:11fcda72e904ab554e4eaf286e3edfdb
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0
+#EXTHTTP:{"cookie":"__hdnea__=st=1783333847~exp=1783355447~acl=/*~hmac=17c9c7519e4134ff3e5cfdc26f9beff08e2663fea484ab9a16a122c00913675a","Origin":"https://www.jiotv.com/","Referer":"https://www.jiotv.com/"}
+https://jiotvmblive.cdn.jio.com/bpk-tv/Haryana_Beats_MOB/WDVLive/index.mpd
+
+#EXTINF:-1 tvg-id="2063" group-title="Music" group-logo="https://i.postimg.cc/52qG6sKt/STREAMXi.png" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/RS_Bharat.png",RS Bharat
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=c8d06f73991a51559d1bb31f358f774a:bb18ae485fa4ebca52ae46aa7b9f1931
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0
+#EXTHTTP:{"cookie":"__hdnea__=st=1783333847~exp=1783355447~acl=/*~hmac=17c9c7519e4134ff3e5cfdc26f9beff08e2663fea484ab9a16a122c00913675a","Origin":"https://www.jiotv.com/","Referer":"https://www.jiotv.com/"}
+https://jiotvmblive.cdn.jio.com/bpk-tv/RS_Bharat_MOB/WDVLive/index.mpd
+
+#EXTINF:-1 tvg-id="2064" group-title="Music" group-logo="https://i.postimg.cc/52qG6sKt/STREAMXi.png" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Merchant_Records.png",Merchant Records
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=abfb2f881f5155d2a91ee8b93846ff6c:fbc8bd7e0b893cbe0fe6d1683a20c9d6
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0
+#EXTHTTP:{"cookie":"__hdnea__=st=1783333847~exp=1783355447~acl=/*~hmac=17c9c7519e4134ff3e5cfdc26f9beff08e2663fea484ab9a16a122c00913675a","Origin":"https://www.jiotv.com/","Referer":"https://www.jiotv.com/"}
+https://jiotvmblive.cdn.jio.com/bpk-tv/Merchant_Records_MOB/WDVLive/index.mpd
+
+#EXTINF:-1 tvg-id="2252" group-title="Music" group-logo="https://i.postimg.cc/52qG6sKt/STREAMXi.png" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Desi_Music_Station.png",Desi Music Station
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0af751488d6c5c8a85822e8f2df2b773:c7de4bbc383ba63986bff966aee97a7d
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0
+#EXTHTTP:{"cookie":"__hdnea__=st=1783333847~exp=1783355447~acl=/*~hmac=17c9c7519e4134ff3e5cfdc26f9beff08e2663fea484ab9a16a122c00913675a","Origin":"https://www.jiotv.com/","Referer":"https://www.jiotv.com/"}
+https://jiotvmblive.cdn.jio.com/bpk-tv/Desi_Music_Station_MOB/WDVLive/index.mpd
+
+#EXTINF:-1 tvg-id="2751" group-title="Music" group-logo="https://i.postimg.cc/52qG6sKt/STREAMXi.png" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Saga_Music_Haryanvi.png",Saga Music Haryanvi
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=42ecabde93eb533b9a58f9eeeccb8c59:fe53fe064de89581cdcf8b65800f2ab6
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0
+#EXTHTTP:{"cookie":"__hdnea__=st=1783333847~exp=1783355447~acl=/*~hmac=17c9c7519e4134ff3e5cfdc26f9beff08e2663fea484ab9a16a122c00913675a","Origin":"https://www.jiotv.com/","Referer":"https://www.jiotv.com/"}
+https://jiotvmblive.cdn.jio.com/bpk-tv/Saga_Music_Haryanvi_MOB/WDVLive/index.mpd
+
+#EXTINF:-1 tvg-id="2753" group-title="Music" group-logo="https://i.postimg.cc/52qG6sKt/STREAMXi.png" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/YRF_Music.png",YRF Music
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=bc1fc677aac354d7ad95625feaa6860d:f2b14b0de7761859e9a3caa196b6c239
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0
+#EXTHTTP:{"cookie":"__hdnea__=st=1783333847~exp=1783355447~acl=/*~hmac=17c9c7519e4134ff3e5cfdc26f9beff08e2663fea484ab9a16a122c00913675a","Origin":"https://www.jiotv.com/","Referer":"https://www.jiotv.com/"}
+https://jiotvmblive.cdn.jio.com/bpk-tv/YRF_Music_MOB/WDVLive/index.mpd
+
+#EXTINF:-1 tvg-id="2936" group-title="Music" group-logo="https://i.postimg.cc/52qG6sKt/STREAMXi.png" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Oye_Music.png",Oye Music
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=1919a6ea9e955fdd9082ccc5a0204173:26760bd12d917f8cc9f84032ddd9a6ed
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/824.1 ExoPlayerLib/824.0
+#EXTHTTP:{"cookie":"__hdnea__=st=1783333847~exp=1783355447~acl=/*~hmac=17c9c7519e4134ff3e5cfdc26f9beff08e2663fea484ab9a16a122c00913675a","Origin":"https://www.jiotv.com/","Referer":"https://www.jiotv.com/"}
+https://jiotvmblive.cdn.jio.com/bpk-tv/Oye_Music_MOB/WDVLive/index.mpd
