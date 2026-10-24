@@ -1,0 +1,241 @@
+name: Auto Update Playlist (Clean 1-Commit)
+
+on:
+  schedule:
+    # Har 1 ghante me run hoga
+    - cron: '1 */1 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1 # History download nahi karega (super fast)
+
+      - name: Fetch and Transform Playlist
+        run: |
+          # Raw playlist fetch karein
+          curl -s "https://plugxvipplaylist.lovable.app/api/playlist" -o raw_playlist.m3u
+
+          # Python script se channels process karke playlist.m3u banayenge
+          python3 - << 'EOF'
+          import re
+          import base64
+          import json
+          from urllib.parse import quote
+
+          def b64url_to_hex(b64):
+              padding = 4 - (len(b64) % 4)
+              if padding < 4:
+                  b64 += '=' * padding
+              b64 = b64.replace('-', '+').replace('_', '/')
+              try:
+                  return base64.b64decode(b64).hex()
+              except:
+                  return b64
+
+          with open("raw_playlist.m3u", "r", encoding="utf-8") as f:
+              content = f.read()
+
+          # Split by #EXTINF: to get each channel block
+          channels = content.split("#EXTINF:")
+          output_lines = ["#EXTM3U"]
+
+          for ch in channels:
+              if not ch.strip():
+                  continue
+              
+              raw_block = "#EXTINF:" + ch
+              lines = [line.strip() for line in raw_block.split("\n") if line.strip()]
+              if not lines:
+                  continue
+
+              extinf_line = lines[0]
+              block_text = "\n".join(lines)
+              
+              # Find stream URL first for accurate checking
+              stream_url = ""
+              for line in lines[1:]:
+                  if line.startswith("http://") or line.startswith("https://"):
+                      stream_url = line.split("|")[0]
+                      break
+
+              # Check channel type (Hotstar FIRST so Star channels don't get caught by Jio)
+              is_hotstar = "hotstar" in block_text.lower() or "Hotstar" in block_text or "hotstar.com" in stream_url
+              is_jiotv_clearkey = not is_hotstar and ("inputstream.adaptive.license_type=clearkey" in block_text or "license_key=" in block_text) and ("Jio" in extinf_line or "Star" in extinf_line or "jiotv" in block_text.lower())
+
+              if is_hotstar:
+                  # 1. Hotstar formatting matching your exact working sample
+                  parts = extinf_line.split(",", 1)
+                  meta_part = parts[0]
+                  ch_name = parts[1] if len(parts) > 1 else "Unknown"
+                  
+                  tvg_name = re.search(r'tvg-name="([^"]*)"', meta_part)
+                  tvg_logo = re.search(r'tvg-logo="([^"]*)"', meta_part)
+                  tvg_category = re.search(r'tvg-category="([^"]*)"', meta_part)
+                  group_title_match = re.search(r'group-title="([^"]*)"', meta_part)
+                  group_logo = re.search(r'group-logo="([^"]*)"', meta_part)
+                  
+                  group_title = group_title_match.group(1) if group_title_match else "JioHotstar"
+
+                  new_extinf = '#EXTINF:-1'
+                  if tvg_name: new_extinf += f' tvg-name="{tvg_name.group(1)}"'
+                  if tvg_logo: new_extinf += f' tvg-logo="{tvg_logo.group(1)}"'
+                  if tvg_category: new_extinf += f' tvg-category="{tvg_category.group(1)}"'
+                  new_extinf += f' group-title="{group_title}"'
+                  if group_logo: new_extinf += f' group-logo="{group_logo.group(1)}"'
+                  if 'type="dash"' in meta_part or "type='dash'" in meta_part or stream_url.endswith('.mpd'):
+                      new_extinf += f' type="dash"'
+                  new_extinf += f',{ch_name}'
+
+                  output_lines.append(new_extinf)
+                  
+                  # Check if it has a license key (clearkey)
+                  license_key_hex = ""
+                  for line in lines[1:]:
+                      if "inputstream.adaptive.license_key=" in line:
+                          lk_val = line.split("=", 1)[1]
+                          if lk_val.startswith("{"):
+                              try:
+                                  data = json.loads(lk_val)
+                                  key_pairs = []
+                                  for k_obj in data.get("keys", []):
+                                      kid = b64url_to_hex(k_obj.get("kid", ""))
+                                      k_val = b64url_to_hex(k_obj.get("k", ""))
+                                      key_pairs.append(f"{kid}:{k_val}")
+                                  license_key_hex = ",".join(key_pairs)
+                              except:
+                                  license_key_hex = lk_val
+                          else:
+                              license_key_hex = lk_val
+                          break
+
+                  if license_key_hex or "license_type=clearkey" in block_text:
+                      output_lines.append("#KODIPROP:inputstream=inputstream.adaptive")
+                      output_lines.append("#KODIPROP:inputstream.adaptive.manifest_type=mpd")
+                      output_lines.append("#KODIPROP:inputstream.adaptive.license_type=clearkey")
+                      if license_key_hex:
+                          output_lines.append(f"#KODIPROP:inputstream.adaptive.license_key={license_key_hex}")
+
+                  hdntl_val = ""
+                  for line in lines[1:]:
+                      m_hdntl = re.search(r"(hdntl=[^&\s\"']*)", line)
+                      if m_hdntl:
+                          hdntl_val = m_hdntl.group(1)
+                          break
+
+                  ua = "Hotstar;in.startv.hotstar/25.02.24.8.11169@Premium Plugx(Android/15)"
+                  ref = "https://www.hotstar.com/"
+                  origin = "https://www.hotstar.com"
+
+                  output_lines.append(f"#EXTVLCOPT:http-user-agent={ua}")
+                  output_lines.append(f"#EXTVLCOPT:http-referrer={ref}")
+                  output_lines.append(f"#EXTVLCOPT:http-extra-headers=Origin: {origin}")
+                  
+                  if hdntl_val:
+                      output_lines.append(f"#EXTVLCOPT:http-cookie={hdntl_val}")
+                      output_lines.append(f'#EXTHTTP:{{"Origin":"{origin}","Referer":"{ref}","Cookie":"{hdntl_val}"}}')
+                      if stream_url:
+                          output_lines.append(f"{stream_url}|cookie={hdntl_val}&referer={ref}&origin={origin}&user-agent={quote(ua, safe='')}")
+                  else:
+                      if stream_url:
+                          output_lines.append(stream_url)
+
+              elif is_jiotv_clearkey:
+                  # 2. JioTV / ClearKey formatting
+                  parts = extinf_line.split(",", 1)
+                  meta_part = parts[0]
+                  ch_name = parts[1] if len(parts) > 1 else "Unknown"
+                  
+                  tvg_id = re.search(r'tvg-id="([^"]*)"', meta_part)
+                  tvg_name = re.search(r'tvg-name="([^"]*)"', meta_part)
+                  tvg_logo = re.search(r'tvg-logo="([^"]*)"', meta_part)
+                  
+                  group_title_match = re.search(r'group-title="([^"]*)"', meta_part)
+                  group_title = "Entertainment"
+                  if group_title_match:
+                      gt = group_title_match.group(1)
+                      if "|" in gt:
+                          group_title = gt.split("|")[-1].strip()
+                      else:
+                          group_title = gt
+
+                  new_extinf = f'#EXTINF:-1'
+                  if tvg_id: new_extinf += f' tvg-id="{tvg_id.group(1)}"'
+                  if tvg_name: new_extinf += f' tvg-name="{tvg_name.group(1)}"'
+                  if tvg_logo: new_extinf += f' tvg-logo="{tvg_logo.group(1)}"'
+                  new_extinf += f' group-title="{group_title}",{ch_name}'
+                  
+                  output_lines.append(new_extinf)
+                  output_lines.append("#KODIPROP:inputstream=inputstream.adaptive")
+                  output_lines.append("#KODIPROP:inputstream.adaptive.manifest_type=mpd")
+                  output_lines.append("#KODIPROP:inputstream.adaptive.license_type=clearkey")
+                  
+                  license_key_hex = ""
+                  cookie_str = ""
+                  
+                  for line in lines[1:]:
+                      if "inputstream.adaptive.license_key=" in line:
+                          lk_val = line.split("=", 1)[1]
+                          if lk_val.startswith("{"):
+                              try:
+                                  data = json.loads(lk_val)
+                                  key_pairs = []
+                                  for k_obj in data.get("keys", []):
+                                      kid = b64url_to_hex(k_obj.get("kid", ""))
+                                      k_val = b64url_to_hex(k_obj.get("k", ""))
+                                      key_pairs.append(f"{kid}:{k_val}")
+                                  license_key_hex = ",".join(key_pairs)
+                              except:
+                                  license_key_hex = lk_val
+                          else:
+                              license_key_hex = lk_val
+                      
+                      if "Cookie=" in line or "cookie" in line:
+                          m_cookie = re.search(r'(__hdnea__=[^&\s"]*)', line)
+                          if m_cookie:
+                              cookie_str = m_cookie.group(1)
+
+                  if license_key_hex:
+                      output_lines.append(f"#KODIPROP:inputstream.adaptive.license_key={license_key_hex}")
+                  
+                  output_lines.append("#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Premium%20Plugx")
+                  
+                  if cookie_str:
+                      encoded_cookie = quote(cookie_str, safe='')
+                      output_lines.append(f"#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Premium%20Plugx&Cookie={encoded_cookie}")
+                      output_lines.append(f'#EXTVLCOPT:http-referrer=https://www.jiocinema.com/')
+                      output_lines.append(f'#EXTVLCOPT:http-cookie={cookie_str}')
+                      output_lines.append(f'#EXTHTTP:{{"User-Agent":"Premium Plugx","Cookie":"{cookie_str}","Referer":"https://www.jiocinema.com/"}}')
+                      if stream_url:
+                          output_lines.append(stream_url)
+                  else:
+                      if stream_url:
+                          output_lines.append(stream_url)
+              else:
+                  # 3. All other channels intact
+                  for line in lines:
+                      output_lines.append(line)
+
+          with open("playlist.m3u", "w", encoding="utf-8") as f:
+              f.write("\n".join(output_lines))
+          EOF
+
+      - name: Force Push Single Clean Commit
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          git checkout --orphan temp-branch
+          git add playlist.m3u
+          git commit -m "Auto-update playlist [$(date -u +'%Y-%m-%d %H:%M:%S UTC')]"
+          
+          git branch -D main || true
+          git branch -m main
+          git push -f origin main
