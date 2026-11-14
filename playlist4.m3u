@@ -1,0 +1,33 @@
+{
+    "status": "success",
+    "channel": "ABP News",
+    "channel_id": 300001,
+    "keys": [
+        {
+            "kty": "oct",
+            "k": "EATXj-Sm9LUXuAAfBWxqdw",
+            "kid": "YNqeEGgkW1OnqgK5KikbfQ"
+        },
+        {
+            "kty": "oct",
+            "k": "M7yMV4ClXpqoyZRYX8oOyQ",
+            "kid": "2iU3Ed9nX9yt0ebg12WnNg"
+        },
+        {
+            "kty": "oct",
+            "k": "aq5Ye4aLFl4o3BDYlPZZzA",
+            "kid": "mYm4ruZEV_2Bv7Cd1v6qfw"
+        },
+        {
+            "kty": "oct",
+            "k": "Clv5ZcXzUzM1o-ZfUwC60g",
+            "kid": "t5m43kyQXl2OHLOqr79nbA"
+        },
+        {
+            "kty": "oct",
+            "k": "Fuex23IHuCJOyBptbgd-Vg",
+            "kid": "7iHYamwzX7eHVft9e7nKpQ"
+        }
+    ],
+    "type": "temporary"
+}
