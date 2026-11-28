@@ -1,0 +1,95 @@
+name: Auto Update Playlist (Clean 1-Commit)
+
+on:
+  schedule:
+    - cron: '1 */1 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Fetch 3 Playlists, Combine and Extract Cookie
+        run: |
+          # 1. Teeno Workers ke URLs yahan daalein
+          URL1="https://proud.bravex.workers.dev/?ab54dt"
+          URL2="https://raw.githubusercontent.com/sportlive18/sportlink-update/refs/heads/main/tstar.m3u"
+          URL3="https://raw.githubusercontent.com/kafankahaniyaan-creator/7684/refs/heads/main/snnxt"
+
+          # 2. Teeno playlists fetch karo
+          curl -s "$URL1" -o p1.m3u || true
+          curl -s "$URL2" -o p2.m3u || true
+          curl -s "$URL3" -o p3.m3u || true
+
+          # 3. Combine karo: 
+          # Pehli playlist se header (#EXTM3U) aur channels aayenge
+          cat p1.m3u > playlist.m3u
+          echo "" >> playlist.m3u
+
+          # Doosri aur teesri playlist se duplicate #EXTM3U hata kar append karo
+          if [ -s p2.m3u ]; then
+            grep -v '^#EXTM3U' p2.m3u >> playlist.m3u || true
+            echo "" >> playlist.m3u
+          fi
+
+          if [ -s p3.m3u ]; then
+            grep -v '^#EXTM3U' p3.m3u >> playlist.m3u || true
+            echo "" >> playlist.m3u
+          fi
+
+          # Temp files remove kar do
+          rm -f p1.m3u p2.m3u p3.m3u
+
+          # 4. Sirf 'jiotvmblive' wali line ya uske aas-pass se cookie value nikaalo
+          JIOTVMBLIVE_LINE=$(grep -m 1 "jiotvmblive" playlist.m3u || true)
+
+          EXTRACTED_COOKIE=""
+          if [ -n "$JIOTVMBLIVE_LINE" ]; then
+            EXTRACTED_COOKIE=$(echo "$JIOTVMBLIVE_LINE" | grep -o 'cookie=[^[:space:]"]*' | head -n 1 | cut -d'=' -f2-)
+          fi
+
+          if [ -z "$EXTRACTED_COOKIE" ]; then
+            EXTRACTED_COOKIE=$(grep -A 5 "jiotvmblive" playlist.m3u | grep -o '__hdnea__=[^[:space:]"]*' | head -n 1)
+          fi
+
+          if [ -z "$EXTRACTED_COOKIE" ]; then
+            EXTRACTED_COOKIE="__hdnea__=not_found"
+          fi
+
+          CURRENT_TIME=$(date -u +'%H:%M %d-%m-%Y')
+
+          # 5. mbcookies.json file generate karo
+          cat << EOF > mbcookies.json
+          [
+            {
+              "last_updated": "$CURRENT_TIME"
+            },
+            {
+              "cookie": "$EXTRACTED_COOKIE"
+            }
+          ]
+          EOF
+
+          echo "playlist.m3u combined & mbcookies.json updated successfully!"
+
+      - name: Force Push Clean Commit
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add -A
+
+          git checkout --orphan temp-branch-2
+          git commit -m "Auto-update combined playlist and cookies [$(date -u +'%Y-%m-%d %H:%M:%S UTC')]"
+
+          git branch -D main || true
+          git branch -m main
+          git push -f origin main
